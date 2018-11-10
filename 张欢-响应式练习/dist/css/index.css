@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+body {
+    font-size: 13px;
+    overflow-x: hidden
+}
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 856764 */
+    src: url('//at.alicdn.com/t/font_856764_hgby0dfl36h.eot');
+    src: url('//at.alicdn.com/t/font_856764_hgby0dfl36h.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_856764_hgby0dfl36h.woff') format('woff'),
+    url('//at.alicdn.com/t/font_856764_hgby0dfl36h.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_856764_hgby0dfl36h.svg#iconfont') format('svg');
+  }
+  .iconfont{
+      font-size: 30px;
+      color:cornflowerblue;
+  }
+.header{
+    background: url(http://react-primer.com/img/pw_maze_black_2X.png)repeat center center ;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    /* position: relative; */
+}
+.header img{
+    width:120px;
+    height: 120px;
+    animation: fadeInDown 1s linear paused;
+}
+.header h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 0 22px 0;
+    color: #fff;
+    animation: fadeInDown 1s linear paused;
+}
+.header-1{
+    position: absolute;
+    margin-top:250px;
+    margin-left:35%;
+    
+}
+.we-create {
+    padding: 0;
+    /* margin: 35px 0 55px; */
+}
+.fadeInUp{
+    animation: fadeInUp 1s linear paused;
+}
+@media(min-width:414px )and(max-width:767px){
+    .header img{
+        width: 100px;
+        height:100px;
+    }
+}
+@media(max-width:414px){
+    .header h1{
+        font-size:28px;
+    }
+}
+@media only screen and (max-width: 767px){
+.link {
+    font-size: 14px;
+    padding: 10px 25px;
+}
+}
+@media(max-width:414px){
+    .header{
+        height:474px;
+    }
+}
+@media(max-width:414px){
+    .header-1{
+        margin-left:1%;
+        margin-top:30px;
+    }
+}
+@media(min-width:415px) and (max-width:767px){
+    .header-1{
+        margin-left:20%;
+        margin-top:100px;
+    }
+    .header{
+        height: 474px;
+    }
+}
+@media(min-width:768px)and (max-width:1000){
+    .header-1{
+        margin-left:25%;
+    }
+}
+@media only screen and (max-width: 767px){
+.we-create li {
+    font-size: 13px;
+    padding: 0 0 0 8px;
+}
+}
+
+.we-create li {
+    display: inline-block;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    color: #bcbcbc;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+    padding: 0 0 0 15px;
+}
+.link {
+    padding: 15px 35px;
+    /* background: #7cc576; */
+    background: #00a79d;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 40px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.link:hover{
+    background: white;
+    color: #00a79d;
+}
+/* 动画效果 */
+.running .animation-item {
+    animation-play-state: running;
+}
+
+/* 内容列表 */
+.row{
+    text-align: center;
+    height:80px;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 4px 5px -3px #ececec;
+    top:0;
+    background: white;
+    /* width: 100%; */
+}
+
+.row section{
+    display: inline-block;
+    width: 10%;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+   
+  
+}
+.row section:hover{
+    color: #00a79d;
+}
+/* 固定导航栏 */
+.fixednav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+}
+@media(max-width:414px){
+    .fixednav{
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 999;
+    }
+    .nav section{
+    margin-left:20px;
+    }
+    .nav{
+        display: none;
+    } 
+    .nav-1{
+        display: block;
+    }
+   
+}
+.nav-1{
+    width: 100%;
+    text-align: center;
+}
+.nav-1 i{
+    cursor: pointer;
+}
+.list{
+    cursor: pointer;
+    display: none;
+}
+.list li{
+    background: rgb(207, 200, 200);
+}
+.list li:hover{
+ color: #00a79d;
+}
+@media(min-width:415px){
+    .nav-1{
+        display: none;
+    }
+}
+
+.contanier-1{
+    width: 100%;
+    height:700px;
+    margin-top:50px;
+    
+}
+@media(max-width: 414px){
+h2 {
+    font-size: 30px;
+}
+h6 {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.nav{
+    height:200px;
+}
+}
+
+h2 {
+    font-size: 34px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* @media(min-width: 414px){
+
+} */
+
+h6 {
+    font-size: 16px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+ .row1{
+    /* display:block; */
+    float: left;
+    text-align: left;
+    width: 1200px;
+    height: 400px;
+    margin-top:50px;
+    margin-left:10%;
+}
+/* .row1 img{
+    float: right;
+    
+    
+} */
+
+.wow{
+   width: 30%;
+   /* display: inline-block; */
+   float: left;
+   animation: fadeInright 1s linear paused;
+
+
+   
+}
+
+.f1{
+   animation: fadeInleft 1s linear paused;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+@media only screen and (max-width: 767px){
+h3 {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 767px){
+p {
+    line-height: 18px;
+}
+}
+p {
+    line-height: 24px;
+    margin: 0;
+}
+@media (max-width:909px){
+    .f1{
+      
+        width: 400px;
+
+    }
+}
+@media (max-width:414px){
+    .wow{
+        /* width: 1200px; */
+        display: block;
+    }
+    .f1{
+       margin-left:-35%;
+       margin-top:300px;
+       width: 450px;
+    }
+}
+
+/* 内容2 */
+.contanier-2{
+    background: url(http://react-primer.com/img/pw_maze_black_2X.png)repeat center center ;
+    width: 100%;
+    height:200px;
+    text-align: center;
+}
+.Portfolio-nav {
+    padding: 0;
+    margin: 0 0 45px 0;
+    list-style: none;
+    text-align: center;
+    margin-left:15%;
+}
+@media only screen and (max-width: 767px){
+  
+   
+   .contanier-2{
+       height: 300px;
+   }
+}
+@media only screen and (max-width:414px){
+    .contanier-2{
+        margin-top:100px;
+        height: 350px;
+    }
+    .Portfolio-nav li a{
+        width:5em;
+        height:1em; 
+    }
+}
+    .Portfolio-nav li{
+        margin:0 10px;
+      font-size:2.3em;
+      font-family: 'Open Sans';
+      float: left;
+    
+    }
+
+    .Portfolio-nav li a{
+      width:7.5em;
+      height:2.2em;
+      border:black solid 1px;
+        display:inline-block;
+        padding:13px 22px;
+      font-weight:bold;
+        line-height:1.5em;
+        color:white;
+        border-radius:4px;
+        /*text-transform:uppercase;*/
+        background:#464646;
+        transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -webkit-transition:all 0.3s ease-in-out;
+    }
+    .Portfolio-nav li a:hover{
+        background:#00a79d;
+        color:#fff;
+        text-decoration:none;
+    }
+
+
+    /* 内容3 */
+    .contanier-3{
+        margin-top:50px;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+
+   .people{
+       width: 100%;
+       height:500px;
+       /* display: inline-block; */
+       margin-top: 60px;
+   }
+   .people li{
+       /* width: 33%; */
+       height: 500px;
+       float: left; 
+       margin-left:70px;     
+   }
+   .people li a{
+       color: rgb(85, 81, 81);
+   }
+   .people li a{
+    text-decoration: none;
+   }
+   .people li a p:hover{
+      
+       color: #00a79d;
+   }
+   .people  img{
+       width: 300px;
+       height: 300px;
+       display: inline-block;
+       z-index: 1000;
+   }
+/* 底部 */
+.footer-1{
+    padding: 50px 0;
+}
+.footer-1 img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
