@@ -1,0 +1,393 @@
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+.swiper-container {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}  
+.swiper-container img{
+    height: 100%;
+   
+}
+body{
+    color: #515151;
+}
+main{
+    min-width: 1100px;
+    background: #f4f4f4;
+    .center{
+        margin-bottom: 50px;
+        .box-adv{
+            height: auto;
+            padding-bottom: 45px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            overflow: hidden;
+            li{
+                float: left;
+                width: 25%;
+                text-align: center;
+                padding-top: 45px;
+            }
+        }
+    }
+}
+.adv img{
+    height: 130px;
+}
+.box-adv>ul{
+    width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+    .text{
+        color: #333;
+        font-size: 20px;
+    };
+    .tes{
+        font-size: 14px;
+        color: #999;
+    }
+}
+.sec-box{
+    margin-bottom: 50px;
+}
+.sec-title{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sec-img{
+    height: 450px;
+    border-bottom: 1px solid #eee;
+    a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: url("https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvRLw2AMfdBAAFBqXyg-Es255.jpg") no-repeat center center;
+
+    }
+}
+.sec-aco a{
+    background: url("https://fms.res.meizu.com/dms/2018/10/23/89d0ea78-27bd-4e9d-8a50-db02395d7ee4.jpg") no-repeat center center;
+}
+.box-phone{
+    width: 1240px;
+    margin: 0 auto;
+}
+.phone{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    li{
+        float: left;
+        position: relative;
+        width: 303px;
+        height: 375px;
+        margin-right: 9px;
+        margin-top: 10px;
+        background-color: #fff;
+        overflow: hidden;
+        text-align: center;
+        transition: all .3s ease;
+        .product{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            display: block;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50%;
+            background-image: linear-gradient(120deg,#ff3149,#ff64a6);
+        }
+    }
+}
+.phone li:nth-child(1),.phone li:nth-child(2){
+    width: 615px;
+    height: 610px;
+    img{
+        height: 460px;
+    };
+    .phone-text>p:nth-child(1){
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .phone-text>p:nth-child(2){
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .phone-text>p:nth-child(3){
+        color: #c00;
+        font-size: 22px;
+        padding-left: 14px;
+    }
+}
+.phone li:nth-child(2),.phone li:nth-child(6){
+    margin-right: 0;
+}
+.phone-text{
+    margin-top: 58px;
+    text-align: center;
+}
+.clearfix{
+    overflow: hidden;
+    li{
+    float: left;
+    position: relative;
+    width: 303px;
+    height: 375px;
+    text-align: center;
+    margin-right: 9px;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all .3s ease;
+    img{
+        height: 230px;
+        margin-top: 30px;
+    }
+}
+}
+.clearfix li:nth-child(4),.clearfix li:nth-child(8){
+    margin-right: 0
+}
+.del-name{
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.del-des{
+    color: #999;
+    font-size: 14px;
+}
+.del-price{
+    position: relative;
+    display: inline-block;
+    color: #c00;
+    font-size: 22px;
+    padding-left: 14px;
+    i{
+        position: absolute;
+        top: 5px;
+        left: 0;
+        font-size: 14px;
+    }
+}
+.del-s{
+    font-size: 14px;
+    margin-left: 8px;
+    color: #666;
+    text-decoration: line-through;
+}
+.clearfix li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+}
+/*声学*/
+.sec-box:nth-child(1){
+    .clearfix li:nth-child(1) a{
+        background: url("https://fms.res.meizu.com/dms/2018/09/25/6192b514-c9e8-4d4d-81d2-a952afb43976.jpg") no-repeat center bottom;
+        background-size: 100%;
+    };
+    .clearfix li:nth-child(5) a{
+        background: url("https://fms.res.meizu.com/dms/2018/10/09/092fe22f-bc33-4b57-87e7-55168d56d9b3.jpg") no-repeat center bottom;
+        background-size: 100%;
+    }
+}
+/* 配件*/
+.sec-box:nth-child(2){
+    .clearfix li:nth-child(1) a{
+        background: url("https://fms.res.meizu.com/dms/2018/09/05/35c143de-5b05-4e2c-87d6-9373bede4831.jpg") no-repeat center bottom;
+        background-size: 100%;
+    };
+    .clearfix li:nth-child(5) a{
+        background: url("https://fms.res.meizu.com/dms/2018/09/26/7568037b-a5f4-4f42-b503-1a7d4686d3e4.jpg") no-repeat center bottom;
+        background-size: 100%;
+    }
+}
+/*周边*/
+.sec-box:nth-child(3){
+    .clearfix li:nth-child(1) a{
+        background: url("https://fms.res.meizu.com/dms/2018/09/26/7c9cfd6e-077f-4535-be59-ef5368bbd757.jpg") no-repeat center bottom;
+        background-size: 100%;
+    };
+    .clearfix li:nth-child(5) a{
+        background: url("https://fms.res.meizu.com/dms/2018/09/26/6fd0292c-aa81-42f9-b1d1-ef572c8744d8.jpg") no-repeat center bottom;
+        background-size: 100%;
+    }
+}
+.sec-box:nth-child(2) .sec-img>a{
+    background: url("https://fms.res.meizu.com/dms/2018/09/29/b522dfc3-c4e0-40d6-be08-30c7e467b2b1.jpg") no-repeat center center;
+}
+.sec-box:nth-child(3) .sec-img>a{
+    background: url("https://fms.res.meizu.com/dms/2018/08/07/574b1565-b84c-4c86-a361-072819ef78f0.jpg") no-repeat center center;
+}
+.row{
+    overflow: hidden;
+    li{
+        float: left;
+        position: relative;
+        width: 303px;
+        height: 380px;
+        margin-right: 9px;
+        background-color: #fff;
+        overflow: hidden;
+        transition: all .3s ease;
+    };
+    .comment-img{
+        height: 190px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    };
+    .comment-info{
+        height: 42px;
+        line-height: 42px;
+        margin-top: 10px;
+        padding: 0 15px;
+        img{
+            width: 36px;
+            height: 36px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            float: left;
+            box-shadow: 1px 1px 1px 1px #eee;
+        }
+        span{
+            margin-left: 15px;
+            text-align: left;
+            float: left;
+            color: #515151;
+        }
+    }
+}
+.row li:nth-child(4){
+    margin-right: 0px;
+}
+.row li p:nth-child(3){
+    padding: 10px 15px 15px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    height: 66px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.row li p:nth-child(4){
+    color: #999;
+    display: block;
+    padding: 0 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+.box-video{
+    overflow: hidden;
+}
+.box-video li{
+    float: left;
+    position: relative;
+    width: 303px;
+    height: 244px;
+    margin-right: 9px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all .3s ease
+}
+.box-video li:nth-child(4){
+    margin-right: 0;
+}
+.video-img{
+    height: 190px;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+    };
+    p{
+        line-height: 55px;
+        text-align: center;
+    };
+    i{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: rgba(255,255,255,.5);
+        border-radius: 50%;
+        right: 15px;
+        bottom: 15px;
+    };
+    i:after{
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-left-color: #000;
+        left: 45%;
+        top: 32%
+    }
+}
+.clear-fix{
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+/* 视频遮罩 */
+.video-hid{
+   z-index: 900;
+   display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color:rgba(0, 0, 0,0.5);
+}
+.video-play{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left:50%;
+    background: #fff;
+    transform:translateX(-50%);
+    top:50px;
+}
+.video-hid li{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    
+}
+.video-hid .show{
+    opacity: 1;
+    
+}
+.video-play video{
+    width: 100%;
+}
+.cancel{
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right:-5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 100;
+}

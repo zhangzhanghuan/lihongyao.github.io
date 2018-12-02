@@ -1,0 +1,147 @@
+export {loaddingKeywordsList, loaddingGoodsList, scroll, tabChange, hasStock}
+
+/****** 加载商品数据 *****/
+function loaddingGoodsList(respon, title, words,keys) {
+    let goodsStr = "";
+    let goodsArr = respon.filter(function(item, idx){
+        return item.classify == title;
+    });
+    let data = goodsArr[0].contents;
+    let resData= fil(words,data);
+    if(resData.length != 0) {
+        $('.goods-list').removeClass('nothing');
+    }else {
+        $('.goods-list').addClass('nothing');
+    }
+    resData.forEach(obj => {
+        goodsStr += `<li class="goods-box" title="${obj.name}">
+            ${(function(){
+                let arr = [];
+                let contentStr = `<div class="tab-content">`;
+                let menuStr = `
+                    <div class="tab-menu">
+                        <i class="iconfont icon-arrow1"></i>
+                        <i class="iconfont icon-arrow"></i>
+                        <div class="menu-box">
+                            <div class="view-box">
+                `;
+                let imgStr = "";
+                obj.colorImg.forEach(img => {
+                    contentStr += `<img src="${img}" alt="${obj.name}">`;
+                    imgStr += `<img src="${img}" alt="${obj.name}">`;
+                });
+                contentStr +=`</div>`;
+                imgStr +=`</div></div></div>`;
+                arr = [contentStr, menuStr, imgStr];
+                return arr.join("");
+            })()}
+            <p class="goods-name">${obj.name}</p>
+            ${isExist(obj.des, "goods-des")}
+            <p class="goods-price">￥ <span class="price-num">${parseInt(obj.price)}</span> 起</p>
+            <div class="compare">
+                <i class="iconfont icon-duibi"></i>
+                <span>对比</span>
+            </div>
+        </li>`;
+    });
+    $('.goods-list').html(goodsStr);
+
+    // 将被点击元素数据存入本地
+    $(".goods-box").on('click', '.tab-content', function(e){
+        sessionStorage.book=JSON.stringify(resData[$(this).parent().index()]);
+        location.href="./details.html"
+    })
+
+    // 过滤数据
+    function fil(words,data) {
+        return data.filter(item => {
+            return Object.keys(words).every(key => {
+               return String( item[key] ).toLowerCase().includes(String( words[key] ).trim().toLowerCase())
+            })
+        })
+    }
+
+    // [内部函数]判断JSON数据是否存在,存在则添加HTML标签和样式,否则不添加
+    function isExist(str, className) {
+        if(str) {
+            return `<p class=${className}>${str}</p>`;
+        }else {
+            return "";
+        }
+    }
+
+}
+
+/****** 关键词筛选 *****/
+function loaddingKeywordsList(response, keyword) {
+    let resData = $.grep(response, function(obj, index){
+        return obj.title === keyword;
+    })
+    if(resData.length != 0){
+        let htmlStr = "";
+        $(resData).each(function(index, res){
+            $.each(res, function(key, value){
+                // 加载除了title以外的其他key的value
+                if(key != "title") {
+                    htmlStr += `<li class="${key}">`;
+                    $.each(value, function(index, item) {
+                        if(key === "classify") {
+                            htmlStr += `<span class="${key} title keywords">${item}</span>`;
+                        }else {
+                            htmlStr += `<span class="${key} keywords">${item}</span>`;
+                        }
+                    });
+                    htmlStr += `</li>`;
+                }
+            });
+        })
+        $('.keywords-list').html(htmlStr);
+    }else{return}
+}
+
+/****** 只显示有货商品 ****/
+function hasStock() {
+    $('.is-stock').on('click', function(){
+        // 打勾
+        $(this).find('.iconfont').toggle();
+
+    })
+}
+
+/****** 前进后退功能 *****/
+function scroll() {
+    // 判断商品颜色图片是否多于4个,是则添加左右箭头,并设置初始样式
+    $('.view-box').each(function(index, element) {
+        if($(element).children('img').length > 4) {
+            $(element).parent().siblings('.iconfont').show();
+            $(element).parent().siblings('.icon-arrow1').addClass('disabled');
+        }else {return;}
+    });
+    // 左箭头 -> 后退
+    $('.icon-arrow1').on('click', function(){
+        $(this).siblings('.menu-box').children('.view-box').animate({left: "0"}, 300);
+        $(this).addClass('disabled');
+        $(this).siblings('.icon-arrow').removeClass('disabled');
+    });
+    // 右箭头 -> 前进
+    let len = $('.menu-box').width();
+    $('.icon-arrow').on('click', function(){
+        $(this).siblings('.menu-box').children('.view-box').animate({left: `-${len}px`}, 300);
+        $(this).addClass('disabled');
+        $(this).siblings('.icon-arrow1').removeClass('disabled');
+    });
+}
+
+/****** 选项卡切换效果 *****/
+function tabChange(){
+    // 点击同时切换按钮和图片内容
+    $('.view-box img').on('click', function(){
+        $(this).addClass('selected').siblings().removeClass('selected');
+        let index = $(this).index();
+        $(this).closest('.tab-menu').siblings('.tab-content').children().eq(index).show().siblings().hide();
+    });
+    // 手动触发一次点击
+    $('.view-box').each(function(index, element){
+        $(element).children('img:first').trigger('click');
+    });
+}

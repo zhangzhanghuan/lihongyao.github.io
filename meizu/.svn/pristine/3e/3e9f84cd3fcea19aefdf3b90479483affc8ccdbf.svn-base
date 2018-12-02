@@ -1,0 +1,9 @@
+// commonJS
+exports.config = {
+    'index': './src/js/index.js',
+    "goods": "./src/js/goods.js",
+    'server':"./src/js/server.js",
+    "shop":"./src/js/shop.js",
+    "details":"./src/js/details.js"
+
+};

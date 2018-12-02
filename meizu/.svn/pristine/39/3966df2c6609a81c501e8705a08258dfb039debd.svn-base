@@ -1,0 +1,7 @@
+  main img {
+    width: 100%;
+  }
+  main {
+    font-size: 0;
+  }
+  

@@ -1,0 +1,767 @@
+{
+    "header":[
+        
+            {
+                "title": "手机",
+            "contentList": [
+                {
+                    "name": "魅族 Note8",
+                    "des": "国民拍照手机",
+                    "color": ["曜黑", "灰蓝", "烟紫", "艳红"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1298.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPoCAVTZOAANhcY1jWUk925.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yuAH9FEAAQYDOKm6Kc765.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 X8",
+                    "des": "准旗舰游戏拍照手机",
+                    "color": ["亮黑", "玉白", "幻蓝"],
+                    "spec": ["4 + 64GB", "6 + 64GB", "6 + 128GB"],
+                    "price": "1598.00",
+                    "size": "6.2",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSK-ABWIRAAm412yc0Ac039.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSLGAE44DAAeLveNy2X4743.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSKmAGC6DAAaMxdXOpAY680.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSKiAW4z7AALHc8pivJY472.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSJyACGwcAAg0epdui5o951.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSL6AS8w5AAhRPgc1bQE955.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16 X",
+                    "des": "骁龙710  轻奢旗舰",
+                    "color": ["汝窑白", "晨曦金", "研墨黑", "云山白", "烟晶紫"],
+                    "spec": ["6 + 64GB", "6 + 128GB"],
+                    "price": "2398.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINLWAIlE-AAiaWpiehPA078.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAJDKmAADzJgGebvw964.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAf28UAAY_xQMGodA166.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8B/Cgbj0FuhuQuAT6roAAI6irYzLPQ372.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINMCAYHwVAA9tzd_slxY751.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPgeAB8oRAANr82CwrrQ070.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPgqACwWfAAM1qdVP9Cw937.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 V8 高配版",
+                    "des": "",
+                    "color": ["雅金", "曜黑", "灰蓝", "烟紫"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1098.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoBmABjqyAAMvon37aMI421.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvRoAaAb002AAitd1zBk7c539.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBKAaK3HAAglBrZT3hw222.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoA2AV-EqAAOBq-nt7h4808.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMyAYB76AATj19tgy08068.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBuAPurkAAKeRCbcKvM061.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoByAY7m7AAKnNypBK54141.png@240x240.jpg",
+                        ""
+                    ]
+                },
+                {
+                    "name": "魅族 V8 标配版",
+                    "des": "",
+                    "color": ["磨砂黑", "纯白"],
+                    "spec": ["3 + 32GB"],
+                    "price": "799.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMsWAcc7hAA4FjtGiUYA631.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9B/Cgbj0Vuhua6ADBHsAAYAVEmw0Fg211.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9C/Cgbj0VuhubeAKt9-AAgRWySRX8g448.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8D/Cgbj0FuhubaAQsFAAAMxQn-qBNA002.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0VujMsWAPxkuAApLWdu_EMM708.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th Plus",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 128GB", "8 + 128GB", "8 + 256GB"],
+                    "price": "3498.00",
+                    "size": "6.5",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgjeAY-5xAAhl9RcNy3s813.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGAcA5BAAFsx9dNlBM303.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGASVdnAATXgpiVvko560.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E0/Cgbj0FtqgjGAJ530AAJzkmWjqNA436.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/05/F0/Cgbj0VtqgjeAV_ChAAfVjwwpNdw016.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/AB/Cgbj0VujRzGADEIWAAdN-7lvIkE357.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 64GB", "6 + 128GB", "8 + 128GB"],
+                    "price": "2998.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnWADjmlAAipoSE4bZM493.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0Ftqgm2AQo8kAALoIW3dU5E207.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnSAEr3VAARgym8YDgE000.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnSAO5g5AAIM3cZJ03Y881.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/9B/Cgbj0FujRsOADooMAAbehLx6_Co899.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 15",
+                    "des": "雕刻时光，重塑经典",
+                    "color": ["雅金","研墨", "黛蓝", "汝窑白"],
+                    "spec": ["4 + 64GB", "4 + 128GB"],
+                    "price": "1998.00",
+                    "size": "5.46",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcblGASw1bAAw5XLlyeCA103.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/0B/Cgbj0Frcbk-AeEorAAXY_9lHYR4332.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0VrcbkiAaSirAAXItYvB5Xo133.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0Vrcbk6AYrRNAAHbf4qjn34636.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcbmKALZ1BAA0NVqTeXpU942.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0C/Cgbj0FrcbnGANGRlAAzqchlSKjQ833.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcbkeAW38NAAjvsXhhyFE066.png@240x240.jpg"
+                    ]
+                }
+            ]
+            },
+            {
+                "title": "声学",
+            "contentList": [
+                {
+                    "name": "魅族 Note8",
+                    "des": "国民拍照手机",
+                    "color": ["曜黑", "灰蓝", "烟紫", "艳红"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1298.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPoCAVTZOAANhcY1jWUk925.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yuAH9FEAAQYDOKm6Kc765.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 X8",
+                    "des": "准旗舰游戏拍照手机",
+                    "color": ["亮黑", "玉白", "幻蓝"],
+                    "spec": ["4 + 64GB", "6 + 64GB", "6 + 128GB"],
+                    "price": "1598.00",
+                    "size": "6.2",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSK-ABWIRAAm412yc0Ac039.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSLGAE44DAAeLveNy2X4743.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSKmAGC6DAAaMxdXOpAY680.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSKiAW4z7AALHc8pivJY472.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSJyACGwcAAg0epdui5o951.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSL6AS8w5AAhRPgc1bQE955.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16 X",
+                    "des": "骁龙710  轻奢旗舰",
+                    "color": ["汝窑白", "晨曦金", "研墨黑", "云山白", "烟晶紫"],
+                    "spec": ["6 + 64GB", "6 + 128GB"],
+                    "price": "2398.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINLWAIlE-AAiaWpiehPA078.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAJDKmAADzJgGebvw964.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAf28UAAY_xQMGodA166.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8B/Cgbj0FuhuQuAT6roAAI6irYzLPQ372.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINMCAYHwVAA9tzd_slxY751.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPgeAB8oRAANr82CwrrQ070.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPgqACwWfAAM1qdVP9Cw937.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 V8 高配版",
+                    "des": "",
+                    "color": ["雅金", "曜黑", "灰蓝", "烟紫"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1098.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoBmABjqyAAMvon37aMI421.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvRoAaAb002AAitd1zBk7c539.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBKAaK3HAAglBrZT3hw222.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoA2AV-EqAAOBq-nt7h4808.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMyAYB76AATj19tgy08068.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBuAPurkAAKeRCbcKvM061.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoByAY7m7AAKnNypBK54141.png@240x240.jpg",
+                        ""
+                    ]
+                },
+                {
+                    "name": "魅族 V8 标配版",
+                    "des": "",
+                    "color": ["磨砂黑", "纯白"],
+                    "spec": ["3 + 32GB"],
+                    "price": "799.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMsWAcc7hAA4FjtGiUYA631.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9B/Cgbj0Vuhua6ADBHsAAYAVEmw0Fg211.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9C/Cgbj0VuhubeAKt9-AAgRWySRX8g448.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8D/Cgbj0FuhubaAQsFAAAMxQn-qBNA002.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0VujMsWAPxkuAApLWdu_EMM708.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th Plus",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 128GB", "8 + 128GB", "8 + 256GB"],
+                    "price": "3498.00",
+                    "size": "6.5",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgjeAY-5xAAhl9RcNy3s813.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGAcA5BAAFsx9dNlBM303.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGASVdnAATXgpiVvko560.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E0/Cgbj0FtqgjGAJ530AAJzkmWjqNA436.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/05/F0/Cgbj0VtqgjeAV_ChAAfVjwwpNdw016.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/AB/Cgbj0VujRzGADEIWAAdN-7lvIkE357.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 64GB", "6 + 128GB", "8 + 128GB"],
+                    "price": "2998.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnWADjmlAAipoSE4bZM493.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0Ftqgm2AQo8kAALoIW3dU5E207.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnSAEr3VAARgym8YDgE000.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnSAO5g5AAIM3cZJ03Y881.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/9B/Cgbj0FujRsOADooMAAbehLx6_Co899.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 15",
+                    "des": "雕刻时光，重塑经典",
+                    "color": ["雅金","研墨", "黛蓝", "汝窑白"],
+                    "spec": ["4 + 64GB", "4 + 128GB"],
+                    "price": "1998.00",
+                    "size": "5.46",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcblGASw1bAAw5XLlyeCA103.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/0B/Cgbj0Frcbk-AeEorAAXY_9lHYR4332.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0VrcbkiAaSirAAXItYvB5Xo133.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0Vrcbk6AYrRNAAHbf4qjn34636.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcbmKALZ1BAA0NVqTeXpU942.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0C/Cgbj0FrcbnGANGRlAAzqchlSKjQ833.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcbkeAW38NAAjvsXhhyFE066.png@240x240.jpg"
+                    ]
+                }
+            ]
+            },
+            {
+                "title": "智能",
+            "contentList": [
+                {
+                    "name": "魅族 Note8",
+                    "des": "国民拍照手机",
+                    "color": ["曜黑", "灰蓝", "烟紫", "艳红"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1298.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPoCAVTZOAANhcY1jWUk925.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yuAH9FEAAQYDOKm6Kc765.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 X8",
+                    "des": "准旗舰游戏拍照手机",
+                    "color": ["亮黑", "玉白", "幻蓝"],
+                    "spec": ["4 + 64GB", "6 + 64GB", "6 + 128GB"],
+                    "price": "1598.00",
+                    "size": "6.2",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSK-ABWIRAAm412yc0Ac039.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSLGAE44DAAeLveNy2X4743.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSKmAGC6DAAaMxdXOpAY680.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSKiAW4z7AALHc8pivJY472.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSJyACGwcAAg0epdui5o951.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSL6AS8w5AAhRPgc1bQE955.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16 X",
+                    "des": "骁龙710  轻奢旗舰",
+                    "color": ["汝窑白", "晨曦金", "研墨黑", "云山白", "烟晶紫"],
+                    "spec": ["6 + 64GB", "6 + 128GB"],
+                    "price": "2398.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINLWAIlE-AAiaWpiehPA078.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAJDKmAADzJgGebvw964.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAf28UAAY_xQMGodA166.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8B/Cgbj0FuhuQuAT6roAAI6irYzLPQ372.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINMCAYHwVAA9tzd_slxY751.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPgeAB8oRAANr82CwrrQ070.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPgqACwWfAAM1qdVP9Cw937.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 V8 高配版",
+                    "des": "",
+                    "color": ["雅金", "曜黑", "灰蓝", "烟紫"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1098.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoBmABjqyAAMvon37aMI421.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvRoAaAb002AAitd1zBk7c539.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBKAaK3HAAglBrZT3hw222.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoA2AV-EqAAOBq-nt7h4808.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMyAYB76AATj19tgy08068.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBuAPurkAAKeRCbcKvM061.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoByAY7m7AAKnNypBK54141.png@240x240.jpg",
+                        ""
+                    ]
+                },
+                {
+                    "name": "魅族 V8 标配版",
+                    "des": "",
+                    "color": ["磨砂黑", "纯白"],
+                    "spec": ["3 + 32GB"],
+                    "price": "799.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMsWAcc7hAA4FjtGiUYA631.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9B/Cgbj0Vuhua6ADBHsAAYAVEmw0Fg211.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9C/Cgbj0VuhubeAKt9-AAgRWySRX8g448.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8D/Cgbj0FuhubaAQsFAAAMxQn-qBNA002.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0VujMsWAPxkuAApLWdu_EMM708.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th Plus",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 128GB", "8 + 128GB", "8 + 256GB"],
+                    "price": "3498.00",
+                    "size": "6.5",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgjeAY-5xAAhl9RcNy3s813.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGAcA5BAAFsx9dNlBM303.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGASVdnAATXgpiVvko560.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E0/Cgbj0FtqgjGAJ530AAJzkmWjqNA436.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/05/F0/Cgbj0VtqgjeAV_ChAAfVjwwpNdw016.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/AB/Cgbj0VujRzGADEIWAAdN-7lvIkE357.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 64GB", "6 + 128GB", "8 + 128GB"],
+                    "price": "2998.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnWADjmlAAipoSE4bZM493.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0Ftqgm2AQo8kAALoIW3dU5E207.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnSAEr3VAARgym8YDgE000.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnSAO5g5AAIM3cZJ03Y881.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/9B/Cgbj0FujRsOADooMAAbehLx6_Co899.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 15",
+                    "des": "雕刻时光，重塑经典",
+                    "color": ["雅金","研墨", "黛蓝", "汝窑白"],
+                    "spec": ["4 + 64GB", "4 + 128GB"],
+                    "price": "1998.00",
+                    "size": "5.46",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcblGASw1bAAw5XLlyeCA103.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/0B/Cgbj0Frcbk-AeEorAAXY_9lHYR4332.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0VrcbkiAaSirAAXItYvB5Xo133.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0Vrcbk6AYrRNAAHbf4qjn34636.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcbmKALZ1BAA0NVqTeXpU942.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0C/Cgbj0FrcbnGANGRlAAzqchlSKjQ833.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcbkeAW38NAAjvsXhhyFE066.png@240x240.jpg"
+                    ]
+                }
+            ]
+            },
+            {
+                "title": "生活",
+            "contentList": [
+                {
+                    "name": "魅族 Note8",
+                    "des": "国民拍照手机",
+                    "color": ["曜黑", "灰蓝", "烟紫", "艳红"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1298.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPoCAVTZOAANhcY1jWUk925.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yuAH9FEAAQYDOKm6Kc765.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 X8",
+                    "des": "准旗舰游戏拍照手机",
+                    "color": ["亮黑", "玉白", "幻蓝"],
+                    "spec": ["4 + 64GB", "6 + 64GB", "6 + 128GB"],
+                    "price": "1598.00",
+                    "size": "6.2",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSK-ABWIRAAm412yc0Ac039.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSLGAE44DAAeLveNy2X4743.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/B7/Cgbj0VusSKmAGC6DAAaMxdXOpAY680.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSKiAW4z7AALHc8pivJY472.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0FusSJyACGwcAAg0epdui5o951.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSL6AS8w5AAhRPgc1bQE955.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16 X",
+                    "des": "骁龙710  轻奢旗舰",
+                    "color": ["汝窑白", "晨曦金", "研墨黑", "云山白", "烟晶紫"],
+                    "spec": ["6 + 64GB", "6 + 128GB"],
+                    "price": "2398.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINLWAIlE-AAiaWpiehPA078.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAJDKmAADzJgGebvw964.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9A/Cgbj0VuhuQuAf28UAAY_xQMGodA166.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8B/Cgbj0FuhuQuAT6roAAI6irYzLPQ372.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINMCAYHwVAA9tzd_slxY751.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPgeAB8oRAANr82CwrrQ070.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPgqACwWfAAM1qdVP9Cw937.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 V8 高配版",
+                    "des": "",
+                    "color": ["雅金", "曜黑", "灰蓝", "烟紫"],
+                    "spec": ["4 + 64GB"],
+                    "price": "1098.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoBmABjqyAAMvon37aMI421.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvRoAaAb002AAitd1zBk7c539.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBKAaK3HAAglBrZT3hw222.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoA2AV-EqAAOBq-nt7h4808.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMyAYB76AATj19tgy08068.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/C5/Cgbj0FvRoBuAPurkAAKeRCbcKvM061.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/D5/Cgbj0VvRoByAY7m7AAKnNypBK54141.png@240x240.jpg",
+                        ""
+                    ]
+                },
+                {
+                    "name": "魅族 V8 标配版",
+                    "des": "",
+                    "color": ["磨砂黑", "纯白"],
+                    "spec": ["3 + 32GB"],
+                    "price": "799.00",
+                    "size": "5.7",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMsWAcc7hAA4FjtGiUYA631.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9B/Cgbj0Vuhua6ADBHsAAYAVEmw0Fg211.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/9C/Cgbj0VuhubeAKt9-AAgRWySRX8g448.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/06/8D/Cgbj0FuhubaAQsFAAAMxQn-qBNA002.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/06/A8/Cgbj0VujMsWAPxkuAApLWdu_EMM708.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th Plus",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 128GB", "8 + 128GB", "8 + 256GB"],
+                    "price": "3498.00",
+                    "size": "6.5",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgjeAY-5xAAhl9RcNy3s813.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGAcA5BAAFsx9dNlBM303.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/EF/Cgbj0VtqgjGASVdnAATXgpiVvko560.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E0/Cgbj0FtqgjGAJ530AAJzkmWjqNA436.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/05/F0/Cgbj0VtqgjeAV_ChAAfVjwwpNdw016.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/AB/Cgbj0VujRzGADEIWAAdN-7lvIkE357.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 16th",
+                    "des": "骁龙845  屏幕下指纹",
+                    "color": ["静夜黑", "远山白", "激光蓝"],
+                    "spec": ["6 + 64GB", "6 + 128GB", "8 + 128GB"],
+                    "price": "2998.00",
+                    "size": "6.0",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnWADjmlAAipoSE4bZM493.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E1/Cgbj0Ftqgm2AQo8kAALoIW3dU5E207.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnSAEr3VAARgym8YDgE000.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgnSAO5g5AAIM3cZJ03Y881.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.png",
+                        "https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/06/9B/Cgbj0FujRsOADooMAAbehLx6_Co899.png@240x240.jpg"
+                    ]
+                },
+                {
+                    "name": "魅族 15",
+                    "des": "雕刻时光，重塑经典",
+                    "color": ["雅金","研墨", "黛蓝", "汝窑白"],
+                    "spec": ["4 + 64GB", "4 + 128GB"],
+                    "price": "1998.00",
+                    "size": "5.46",
+                    "stock": true,
+                    "img": [
+                        "//openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcblGASw1bAAw5XLlyeCA103.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/0B/Cgbj0Frcbk-AeEorAAXY_9lHYR4332.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0VrcbkiAaSirAAXItYvB5Xo133.png680x680.jpg",
+                        "//openfile.meizu.com/group1/M00/04/19/Cgbj0Vrcbk6AYrRNAAHbf4qjn34636.png680x680.jpg"
+                    ],
+                    "colorImg": [
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/1A/Cgbj0VrcbmKALZ1BAA0NVqTeXpU942.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0C/Cgbj0FrcbnGANGRlAAzqchlSKjQ833.png@240x240.jpg",
+                        "https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcbkeAW38NAAjvsXhhyFE066.png@240x240.jpg"
+                    ]
+                }
+            ]
+            },
+            {
+                "title": "Flyme"
+            },
+            {
+                "title": "服务"
+            },
+            {
+                "title": "专卖店"
+            },
+            {
+                "title": "社区"
+            },
+            {
+                "title": "app下载",
+                "contentList":[
+                   {
+                    "colorImg":[
+                        "https://fms.res.meizu.com/dms/2018/08/17/5842d21c-6a11-4e8b-8546-dc558a0bdb09.jpg"
+                    ]
+                   }
+                ]
+            }
+        
+    ],
+    "footer":[
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/2c69bf7c-2d29-4fd4-852e-0aa497f36f51.png",
+            "p":"全场顺丰包邮"
+        },
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/d28eac8b-b915-49dc-9dbd-80884a07d44f.png",
+            "p":"100+ 城市次日送达"
+        },
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/b21f3e65-f7f4-4693-914c-c070faf96770.png",
+            "p":"7天无理由退货"
+        },
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/1998f0da-a439-4e07-9736-e6a1c39fb0ae.png",
+            "p":"15天换货保障"
+        },
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/420825c1-4763-436d-b3e1-721651ccc70c.png",
+            "p":"1年免费保修"
+        },
+        {
+            "img":"https://fms.res.meizu.com/dms/2018/07/13/1c5cfeff-1b35-499e-bc2a-1fd29305be69.png",
+            "p":"上门快修"
+        }
+    ],
+    "text":[
+        {
+            "test":"了解魅族"
+        },
+        {
+            "test":"加入我们"
+        },
+        {
+            "test":"联系我们"
+        },
+        {
+            "test":"Flyme"
+        },
+        {
+            "test":"魅族社区"
+        },
+        {
+            "test":"天猫旗舰店"
+        },
+        {
+            "test":"问题反馈"
+        },
+        {
+            "test":"线上销售授权名单公示"
+        },
+        {
+            "test":"出版物经营许可证"
+        },
+        {
+            "test":"简体中文"
+        }
+
+    ]
+}

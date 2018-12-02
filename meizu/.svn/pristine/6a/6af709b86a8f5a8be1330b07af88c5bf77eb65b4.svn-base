@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main class="content">
+        <div class="checkbox">
+
+            <!-- 导航 -->
+            <section class="nav">
+                <a href="javascript:;">首页</a>
+                <span>&gt;</span>
+                <a href="javascript:;">全部商品</a>
+            </section>
+
+            <!-- 搜索 -->
+            <ul class="keywords-list">
+                <li class="classify">
+                    <span class="title">分类:</span>
+                    <span class="keywords">手机</span>
+                    <span class="keywords">数码影音</span>
+                    <span class="keywords">智能</span>
+                    <span class="keywords">生活</span>
+                    <span class="keywords">其他设备</span>
+                </li>
+                <li class="brand">
+                    <span class="title">品牌:</span>
+                    <span class="keywords">全部</span>
+                    <span class="keywords">魅族</span>
+                    <span class="keywords">魅蓝</span>
+                    <span class="keywords">乐心</span>
+                    <span class="keywords">先锋</span>
+                    <span class="keywords">JBL</span>
+                    <span class="keywords">铁三角</span>
+                    <span class="keywords">cabecade</span>
+                    <span class="keywords">其他品牌</span>
+                </li>
+            </ul>
+
+            <section class="sort">
+                <span>推荐</span>
+                <span>新品</span>
+                <span>价格</span>
+                <label for="">仅显示有货商品</label>
+            </section>
+
+            <ul class="goods-list"></ul>
+        </div>
+    </main>
+<script type="text/javascript" src="http://localhost:8081/static/js/goods.js"></script></body>
+</html>
