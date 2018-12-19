@@ -10,7 +10,7 @@
         </div>
        
         <!-- 列表 -->
-        <ul class="mine-list img2">
+        <ul class="mine-list">
             <router-link to="/modification" tag="li"><i class="iconfont">&#xe609;</i><a href="#">设置个人资料</a><i class="iconfont mine-icon">&#xe61d;</i></router-link>
             <router-link to="/address" tag="li"><i class="iconfont">&#xe644;</i><a href="#">收货地址管理</a><i class="iconfont mine-icon">&#xe61d;</i></router-link>
             <div class="mine-list-li-two">
@@ -29,9 +29,6 @@
         <router-view/>
     </div>
     <router-view/>
-     <div class="">
-             <div class="bg"></div>
-         </div>
     </div>
     
 </template>
@@ -52,18 +49,6 @@ export default {
 </script>
 
 <style scoped>
-.img2{ 
-    /* width: 100%;
-    height:2000px; */
-    background:url('../../static/img/img2.png')  no-repeat;
-    }
-.bg{height:158px;width:280px;background-position:0 0;}
-.bg{height:162px;width:311px;background-position:-280px 0;}
-._004{height:350px;width:500px;background-position:0 -159px;}
-._002{height:313px;width:500px;background-position:0 -510px;}
-._005{height:300px;width:533px;background-position:0 -823px;}
-._003{height:300px;width:533px;background-position:0 -1124px;}
-._001{height:300px;width:621px;background-position:0 -1424px;}
 .mine{
     width: 100%;
     height:900px;
