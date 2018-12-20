@@ -146,7 +146,7 @@
              
                     htmlStr += `
                         <li >
-                        <a href="../details.html">
+                        <a href="../项目一/details.html">
     
     <img src="${obj.img}" onmouseenter="myfunction()" >
                         </a>
