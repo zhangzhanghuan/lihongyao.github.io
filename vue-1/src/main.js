@@ -32,9 +32,6 @@ Vue.config.productionTip = false
 
 //使用store
 router.beforeEach((to, from, next) => {
-  if(JSON.parse(sessionStorage.isLogin) == true){
-    store.state.loginState = true;
-  }
   switch(to.name) {
     case "home":  store.commit('changeTitle', "主页"); break;
     case "type":  store.commit('changeTitle', "分类"); break;

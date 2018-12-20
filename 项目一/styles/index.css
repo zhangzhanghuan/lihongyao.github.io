@@ -1,0 +1,1666 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0 auto;
+    font: 16px sans-serif;
+    font-size: 0;
+    /* overflow-x: hidden; */
+}
+input,select,button,textarea {
+    font: inherit;
+    outline: none;
+}
+select,button {
+    cursor: pointer;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, i, b {
+    /* margin: 0;
+    padding: 0; */
+    font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 856764 */
+    src: url('//at.alicdn.com/t/font_856764_tim2tzf8cbh.eot');
+    src: url('//at.alicdn.com/t/font_856764_tim2tzf8cbh.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_856764_tim2tzf8cbh.woff') format('woff'),
+    url('//at.alicdn.com/t/font_856764_tim2tzf8cbh.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_856764_tim2tzf8cbh.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font: normal 20px "iconfont";
+    color: #fff;
+}
+  a:hover{
+    color: #248DCC;
+  } 
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+.all{
+    width: 1200px;
+    margin: 0 auto;
+} 
+/* 头部导航栏 */
+.header{
+  width: 1360px;
+  border: 1px solid gray;
+  background: #F5F5F5;
+}
+.header-nav{
+    height: 29px;
+    font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+    
+   margin: 0 auto;
+    width: 1140px;
+}
+/* 左边导航栏 */
+.header-nav-left{
+    margin-left:-40px;
+}
+.header-nav ul{
+    float: left;
+    list-style-type: none;
+    margin-top:5px;
+}
+.header-nav ul li{
+    display: inline;
+   margin-left:3px;
+}
+li:hover{
+    color:#5292D9;
+    cursor: pointer;
+}
+/* 右边导航栏 */
+.header-nav-right{
+    float: right;
+}
+.header-nav-right ul li{
+    margin-left:3px;
+}
+.header-nav-right li a{
+    text-decoration: none;
+}
+
+/* 地址显示 */
+.add{
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+    margin-top:5px;
+    margin-left:110px;
+    background: white;
+    z-index: 1000;
+    position: absolute;
+}
+.add .tab-wrapper{
+    margin-top:5px;
+    margin-left:10px;
+}
+.add-1{
+    position: relative;
+}
+.add-1:hover .add{
+  display: block;
+}
+.img1{
+    font-size: 0;
+    height: 78px;
+    width: 1200px;
+}
+
+
+
+/* 我的E宠 */
+.topgz {
+    position: relative;
+    padding-right: 14px;
+    cursor: pointer;
+    
+}
+
+.header-nav-right li i {
+   font-size: 20px;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+    margin-right: 5px;
+    float: left;
+    color: #444;
+    line-height: 10px;
+}
+
+/* 登录 */
+
+.sign{
+    position: relative;
+    transition: all .25s linear;
+}
+.sign-hidden{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 52px;
+    border: 1px solid rgb(141, 103, 212);
+    z-index: 12;
+    left: -40px;
+    opacity: 0;
+    font-size: 13px;
+    line-height: 28px;
+    background: #ffffff;
+}
+.sign-cancle{
+    display: none;
+    color: red;
+    border-top: 1px solid rgb(141, 103, 212);
+}
+.sign-lo{
+    display: block;
+    color: green;
+}
+.sign:hover .sign-hidden{
+    opacity: 1;
+    
+}
+
+.myec_tc {
+    border: 1px solid #ddd;
+    border-top: 0; 
+    position: absolute;
+    display: none; 
+    background-color: #FFF;
+    padding: 5px 10px;
+    margin-top:-5px;
+}
+.dropmn:hover .myec_tc{
+    display: block;
+}
+
+.myec_tc a {
+    line-height: 14px;
+    display: block;
+    margin: 5px 0;
+}
+
+.topgz b {
+    display: block;
+    width: 0;
+    height: 0;
+    border: transparent solid 4px;
+    border-top: #717171 solid 4px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    transform: all 5s 2s linear;
+    overflow: hidden;
+}
+.topgz:hover b{
+    border: transparent solid 4px;
+    border-bottom: #717171 solid 4px;
+
+}
+.boxsha {
+    box-shadow: 3px 3px 4px #777;
+}
+.cun .myec_tc{
+    margin-left:210px;
+    margin-top:5px;
+}
+
+
+.img1 img{
+    height: 78px;
+    display: inline-block;
+    margin-top:-7px;
+}
+/* 搜索 */
+.found{
+    height: 125px;
+}
+.found img{
+    float: left;
+}
+.search {
+    margin: 35px 0 0 33px;
+}
+
+.fl {
+    float: left;
+}
+
+.search input {
+    border: #459d36 solid 2px;
+    background: 0 0;
+    padding: 0 5px 0 15px;
+    width: 382px;
+    height: 34px;
+    outline: 0;
+    line-height: 30px;
+    font-size: 14px;
+    float: left;
+}
+.c999 {
+    color: #999;
+}
+.search button {
+    border: 0;
+    width: 73px;
+    height: 34px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #459d36;
+    color: #FFF;
+    font-size: 14px;
+}
+.keywords {
+    margin: 10px 0;
+    width: 498px;
+    height: 17px;
+    overflow: hidden;
+}
+.keywords label {
+    display: inline;
+    white-space: nowrap;
+    color: #999;
+}
+.keywords a{
+    padding :0 5px;
+    text-decoration: none;
+}
+.keywords a:link, .keywords a:visited {
+    color: #999;
+}
+.keywords a, .keywords span, .keywords label {
+    display: inline;
+    white-space: nowrap;
+    color: #999;
+}
+
+a:link, a:visited {
+    outline: 0;
+}
+/* 购物车 */
+.go-buy {
+    margin: 23px 0 0;
+    width: 130px;
+    height: 39px;
+    text-align: center;
+    text-indent: 2em;
+    background: url(../image/header/shopping-cart.gif) no-repeat;
+}
+.fr {
+    float: right;
+}
+.c666{
+    text-decoration: none;
+}
+.fr a{
+    display: inline-block;
+    margin:10px 0 0 -20px;
+    
+}
+/* 二次导航栏 */
+.nav-1{
+    height:40px;
+    background: pink;
+    width:1200px;
+    float: left;
+}
+
+.E-1{
+    float: left;
+    height: 40px;
+    margin-left: 230px;
+}
+/* 骨头 */
+.gutou{
+    margin-top:15px;
+}
+.gutou li {
+    display: inline;
+    line-height: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 15px;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.gutou ul li a{
+    color: black;
+}
+.gutou .iconfont{
+    position: absolute;
+    transition:.5s linear;
+    left: -6px;
+    top: 0;
+    color:#459D36;  
+}
+.nav-iconfont{  
+    position: relative;
+}
+.nav-iconfont:hover .iconfont{ 
+    transform: rotateZ(360deg);
+    color:#459D36;
+}
+.nav-iconfont:hover a{
+    color:#459D36;
+}
+
+/* 轮播1 */
+
+.tab-wrapper {
+    width:230px;
+    margin-top:-40px;
+    float: left;
+    text-align: center;
+    margin-left:40px;
+}
+.nav-2 li {
+    float: left;
+    color:#666666;
+    padding:10px 20px;
+    font-family: 'Droid Serif', serif;
+    letter-spacing: 2px;
+    transition: all .15s linear;
+    font-size: 16px;
+    border: 1px solid rgb(214, 212, 212);
+    height: 40px;
+}
+.nav-2 li:nth-child(1){
+    margin-left:-40px;
+    width: 115px;
+    border-right: none;
+}
+.nav-2 .type{
+    margin-left:1px;
+    width: 114px;
+    
+
+}
+.type i{
+    margin-top:-20px;
+    float: right;
+    margin-right: -20px;
+}
+.nav-2 li.selected {
+    color: #afaaaa;
+    background: #fff;
+}
+/* 内容 */
+.tab-content{
+    /* position: relative; */
+     width: 230px;
+    z-index: 100;
+}
+.dog-dog li{
+    float: left;
+    width: 230px;
+    height: 30%;
+    margin:10px;
+    border-bottom:1px dashed rgb(199, 197, 197);
+}
+.dog-dog li:last-child{
+    border:none;
+}
+.dog-dog img{
+  /* display: none; */
+  display: inline-block;
+  margin-right:150px;
+
+}
+
+.dog-dog p{
+    margin-top:-60px;
+    margin-left:40px;
+}
+.dog-dog span{
+    padding: 5px 10px;
+    margin-left:-25px;
+    border: 1px solid grey;
+    
+    margin-top:10px;
+    position: absolute;
+}
+/* .dog-dog p:hover:first-child{
+   color: #22990d;
+    background: cornflowerblue;
+} */
+
+.cansay  ul {
+    background: #fff;
+}
+.cansay h3 {
+    background-position: right -1206px;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fcfcfc;
+}
+.cansay-list li {
+    height: 51px;
+    display: block;
+    width: 230px;
+    float: left;
+    background: url(https://static.epetbar.com/static_web/pc/dist/images/background/menuLine1.png) 50% bottom no-repeat;
+    overflow: hidden;
+    border-right:1px solid grey;
+}
+.cansay-list li .cansay-list-1{
+    width: 570px;
+    height:360px;
+    background: rgb(255, 255, 255);
+    margin-top:-50px;
+    margin-left:229px; 
+    z-index: 9905;
+    position: absolute;
+    display: none;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgb(70, 69, 69);
+}
+.cansay-list-1 span{
+    /* margin-left:20px; */
+    width: 100%;
+    border-bottom:1px dashed rgb(202, 198, 198);
+    height:14%;
+    display: inline-block;
+}
+.cansay-list-1 .cansay-list-1-span img{
+    margin-left: 20px;
+    float: left;
+    height:40px;
+}
+.cansay-list-1 .cansay-list-1-span a{
+    float: left;
+    font-size: 16px;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.mid_head {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.mid_head img{
+    height: 30px;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+
+}
+.mid_head a{
+    color: green;
+    /* font-weight: 700; */
+    padding-right: 10px;
+    font-size:12px;
+    margin-left:25px;
+    
+}
+.mid_list a{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid rgb(158, 156, 156);
+    border-top:none;
+    border-bottom: none;
+    border-right: none;
+}
+.cansay-list-1 span:last-child{
+    border-bottom:none;
+}
+.cansay-list li:hover .cansay-list-1{
+    display: block;
+
+}
+.cansay h3 a {
+    font-size: 14px;
+    display: inline-block;
+    width: 88px;
+    overflow: hidden;
+    height: 50px;
+    color: #444444;
+   
+}
+.cansay-list li:hover h3 {
+    border:1px solid #459D36;
+    border-right: none;
+   
+   
+}
+.cansay-list li:hover .cansay-list-1{
+    border-left:1px solid #459D36;
+}
+
+.cansay-list li:hover{
+    border-right: none;
+}
+.cansay-list li:last-child:hover{
+    border:1px solid #459D36;
+    /* border-right: none; */
+}
+.cansay h3 a:hover{
+    color:cornflowerblue;
+}
+.cansay h3 i{
+    font-size: 5px;
+    color:rgb(90, 88, 87);
+    margin-top:17px;
+    margin-left: 20px;
+    position: absolute;
+}
+.last-list {
+    height: 52px;
+    background: #fff;
+    color: #22990d;
+    text-indent: 20px;
+    font-size: 14px;
+}
+.last-list i{
+    position: absolute;
+    margin-left: -60px;
+}
+.last-list .last-font{
+    line-height: 30px;
+    margin-left: 15px;
+}
+.tab-content section{
+    width: 230px;
+    height: 360px;
+    border:1px solid rgb(173, 171, 171);
+    position: absolute;
+    opacity: 0;
+    transition:all .5s linear;
+    margin-top:40px;
+   margin-left:-40px;
+   /* overflow: hidden; */
+}
+.tab-content section.show{
+    opacity: 1;
+}
+/* hover */
+section{
+    background: #FCFCFC;
+}
+
+/* 轮播2 */
+
+.content{
+    width: 1200px;
+    height: 360px;
+    margin-top:40px;
+    margin-left:230px;
+
+}
+
+.flash-wrapper {
+    position: relative;
+}
+.flash-wrapper .btn{
+    display: block;
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fade-flash-wrapper img {
+    opacity: 0;
+    transition: opacity .75s linear;
+    width: 770px;
+}
+/* 小圆点 */
+.flash-wrapper .idot-box {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    text-align: center;
+}
+.flash-wrapper .idot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #999999; 
+    margin: 0 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all .25s linear;
+}
+.flash-wrapper .idot:hover {
+    background: #fff;
+}
+.flash-wrapper .idot.selected {
+    background: #fff;
+}
+/* 左右的按钮 */
+
+.flash-wrapper .prev {
+    left: 30px;
+    background: url("../image/lun/arr_left.png") no-repeat center center;
+    
+}
+.flash-wrapper .next {
+    right: 445px;
+    background: url("../image/lun/arr_right.png") no-repeat center center;
+}
+.fade-flash-wrapper img:not(:first-child){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fade-flash-wrapper img.show {
+    opacity: 1;
+}
+
+/* 轮播图右边 */
+.right{
+    width: 200px;
+    height:360px;
+   float:right;
+   margin-top:-360px;
+   overflow: hidden;
+}
+
+.span-1 img{
+    position: relative;
+    transition: all .5s  linear;
+    
+}
+.span-1 img:hover{
+    transform: translateX(-15px) !important;
+}
+/* list-1 */
+.list-1{
+    width: 1200px;
+    height:460px;
+ 
+    margin-top:30px;
+}
+.list-1-left{
+    width: 328px;
+    height:460px;
+    background: url(../image/list-1/everydayBgNew2.png);
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.list-1-left .clock{
+    font-weight: 700px;
+    font-size: 30px;
+    color: white;
+    margin-top:200px;
+    display:inline-block;
+}
+.list-1-left img{
+    margin-top:-6px;
+}
+/* 气泡 */
+.jXZImg {
+    display: inline-block;
+    height: 23px;
+    width: 63px;
+    background: url(../image/list-1/jxz.png) center no-repeat;
+    background-size: 100%;
+   
+    margin: 180px 0 0 100px;
+    position: absolute;
+}
+.down-app-tip {
+    width: 154px;
+    height: 41px;
+    background: url(../image/list-1/downappbg.png) no-repeat;
+    left: 42px;
+    top: 368px;
+    line-height: 35px;
+    z-index: 10;
+}
+
+.abs {
+    position: absolute;
+}
+.ftc {
+    text-align: center;
+}
+.cfff {
+    color: #fff;
+}
+.ft12 {
+    font-size: 12px;
+}
+/* 轮播图从下到上 */
+#rollCon{
+    width: 80%;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  color: black;
+  height: 5%;
+  background: #FF7188;
+  border-radius: 32px;
+  position: absolute;
+  color: wheat;
+  top: 90%;left: 10%;
+  }        
+  #rollSubject{height: auto;}        
+  #rollCopy{height: auto;}   
+p img{
+    display:inline-block;
+    margin-top: 3.5px;
+    width: 25px;
+    height: 25px;
+    /* overflow: hidden; */
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  /* tab-wrapper-1 */
+  .tab-wrapper-1{
+      width: 872px;height:460px;
+     border: 1px solid #E7E7E7;
+      float: left;
+  }
+
+  /* 菜单样式 */
+
+.tab-menu-1{
+    width: 872px;
+    height: 68px;
+    margin: 0;
+    border-bottom: 1px dashed #E7E7E7;
+}
+.tab-menu-1 li {
+    display: inline-block; 
+    color: #fff;
+    /* padding: 6px 20px; */
+    font-family: 'Droid Serif', serif;
+    /* letter-spacing: 2px; */
+    border-radius: 5px 5px 0 0;
+    transition: all .15s linear;
+    padding: 15px 35px;
+    height:68px;
+    text-align: center;
+    color:#999999;
+    line-height: 25px;
+    overflow: hidden;
+}
+.tab-menu-1 li.selectedd {
+    color: orangered;
+    background: #fff;
+    border-bottom: 2px solid orangered;
+    font-size: 16px;
+}
+
+/* 内容 */
+.tab-content-1{
+    position: relative;
+    width: 870px;
+    height: 390px;
+    background: pink;
+}
+.tab-content-1 span{
+    position: absolute;
+    opacity: 0;
+    transition:all .5s linear;
+}
+.tab-content-1  span.show{
+    opacity: 1;
+}
+.tab-content-1 section  {
+    width: 217.5px;
+    height:390px;
+    float: left;
+  
+}
+section .img{
+    position: relative;
+    transition: all .5s  linear;
+}
+
+section .img:hover{
+    transform: translateY(-15px) !important;
+}
+section .p1{
+    height: 30px;
+    margin-top: 11px;
+    font-size: 12px;
+    line-height: 1.2;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #444444;
+    cursor: pointer;
+}
+section .p1:hover{
+     
+    color: rgb(50, 50, 190);
+}
+section .font1{
+    font-size: 20px;
+    color: red;
+}
+section .font2{
+ color: red;
+}
+section .font3{
+    text-decoration: line-through;
+    color: grey;
+}
+section .font4{
+    color: grey;
+    margin-left:50px;
+}
+
+.dib{
+    padding: 5px 30px;
+    background: #4ace83;
+    margin-top:15px;
+    border-radius: 15px;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+}
+
+/* 狗狗主粮 */
+.dog{
+    width: 1200px;
+    height:580px;
+    margin-top:50px;
+}
+.dog-nav{
+    height:35px;
+}
+.dog-title{
+   color: #333;
+   font-size: 20px;
+   line-height: 30px;
+}
+.dog-left{
+    height: 477px;
+    width: 328px;
+    background: url(../image/dog-img/dog-1.png);
+    float: left;
+    }
+.dog-left-1{
+    width: 328px;
+    height:177px;
+    background:white;
+    opacity: 0.7;
+    margin-top:300px;
+    display: inline-block;
+}
+.hot{
+    width: 298px;
+    height: 30px;
+}
+.hot .f1{
+    background: #248DCC;
+}
+.hot i{
+    color: rgb(43, 41, 40);
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top:-10px;
+}
+.hot p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400px;
+    display: inline-block;
+     margin-left: -20px;
+     margin-top:-10px;
+}
+/* 列表 */
+.kind-name {
+    width: 315px;
+    height: 102px;
+}
+
+.mt, .mtop10 {
+    margin-top: 10px;
+}
+.overflow {
+    overflow: hidden;
+   
+
+}
+.kind-name li {
+    width: 105px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 30px;
+   
+}
+
+.kind-name li a:hover{
+  color: cornflowerblue;
+}
+/* .fl {
+    float: left;
+} */
+.ftc {
+    text-align: center;
+}
+ul, ol, li, dl, dt, dd {
+    list-style: none;
+}
+.kind-name li a {
+    border-radius: 30px;
+    margin-right: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 3px 11px;
+    background: rgb(233, 218, 218);
+    color: #444444;
+    
+}
+.dog-right{
+    width: 872px;
+    height: 477px;
+    float: left;
+}
+
+
+
+
+  /* 菜单样式 */
+.tab-wrapper-dog {
+    width: 872px;
+   margin-top:-37px;
+}
+.tab-menu-dog{
+    margin-left:489px;
+    
+}
+.tab-menu-dog li {
+    display: inline-block;
+    color: rgb(37, 33, 33);
+    font: 14px 'Microsoft Yahei',Tahoma,Simsun;
+    padding: 10px 17px;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: all .15s linear;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    height: 33px;
+    border-top: 1px solid #e7e7e7;
+}
+.tab-menu-dog li.selected-dog {
+    color: #459d36;
+    border-top:3px solid #459d36;
+    border-left:1px solid #459d36;
+    border-right:1px solid #459d36;
+    border-bottom: none;
+}
+
+/* 内容 */
+.tab-content-dog{
+    position: relative;
+}
+.tab-content-dog span{
+    position: absolute;
+    opacity: 0;
+    transition:all .5s linear;
+}
+.tab-content-dog span.show{
+    opacity: 1;
+    border-top:1px solid #459d36;
+}
+.tab-content-dog{
+    width: 872px;
+    height: 477px;
+}
+/* 热门 */
+
+.ct-list-1 .des:hover{
+    color: blue;
+}
+.ct-list-1 li img{
+    position: relative;
+    transition: all .5s  linear;
+}
+.ct-list-1 li:hover img{
+   transform: translateX(-10px) !important;
+ } 
+
+.ct-list li{
+ float: left;
+ color: black;
+ border: 1px solid #E7E7E7;
+ border-left:none;
+ border-bottom: none;
+ /* position: absolute; */
+
+}
+.ct-list-1 .des{
+    height:30px;
+}
+.ct-list img{
+    /* position: relative; */
+    transition: all .5s  linear;
+    
+}
+
+.ct-list li:hover img{
+    transform: translateY(-40px);
+}
+.ct-list .title{
+    margin-top:-40px;
+    color: #000;
+    font-size: 16px;
+}
+.ct-list .des{
+    margin-top:0;
+    color: #f40;
+    font-size: 14px;
+}
+/* jingkou */
+.ct-list-1 li{
+  width: 218px;
+  height: 238px;
+  float: left;
+ border: 1px solid #E7E7E7;
+ border-left:none;
+ border-top: none;
+}
+.ct-list-1 img{
+    width: 138px;
+    height: 138px;
+    margin:20px 30px; 
+    transition: all .5s  linear;
+}
+.ct-list-1 .des{
+    color: #666;
+    font-size: 12px;
+}
+.ct-list-1 .price{
+    color: #dd2727;
+    font-size: 16px;
+}
+
+  /* 品牌 */
+  .pingpai li{
+    width: 150px;
+    height: 70px;
+    float: left;
+    border: 1px solid #E7E7E7;
+    border-top: none;
+    text-align: center;
+    line-height: 70px;
+  }
+  .pingpai   li:not(:nth-child(1)){
+    border-left: none;
+  }
+  .pingpai li:hover  img{
+     opacity: 0.5;
+  }
+  /* 狗狗零食 */
+
+.dog-left1{
+    background: url(https://img2.epetbar.com/nowater/2017-05/26/8/33e62fbf6ddeb49cb0a23611e04de8fd.jpg@!water)
+}
+  /* 菜单样式 */
+.tab-wrapper-dog-1 {
+    width: 872px;
+   margin-top:-37px;
+}
+.tab-menu-dog-1{
+    margin-left:180px;  
+}
+.tab-menu-dog-1 li {
+    display: inline-block;
+    color: rgb(37, 33, 33);
+    font: 14px 'Microsoft Yahei',Tahoma,Simsun;
+    padding: 10px 17px;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: all .15s linear;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    height: 33px;
+    border-top: 1px solid #e7e7e7;
+}
+.tab-menu-dog-1 li.selected-dog-1 {
+    color: #459d36;
+    border-top:3px solid #459d36;
+    border-left:1px solid #459d36;
+    border-right:1px solid #459d36;
+    border-bottom: none;
+}
+  /* 狗狗医疗与保健 */
+
+.dog-left2{
+    background: url(https://img2.epetbar.com/nowater/2018-06/29/17/fc146c515230dd762dd67ddc1d207c89.jpg@!water)
+}
+
+.tab-menu-dog-2{
+    margin-left:180px;
+    
+}
+.tab-menu-dog-2 li.selected-dog-2 {
+    color: #459d36;
+    border-top:3px solid #459d36;
+    border-left:1px solid #459d36;
+    border-right:1px solid #459d36;
+    border-bottom: none;
+}
+  /* 狗狗日用 */
+  .dog-left3{
+    background: url(https://img2.epetbar.com/nowater/2018-01/08/14/9d83d790b41b45852147c13ff9176b31.jpg@!water)
+}
+
+.tab-menu-dog-3{
+    margin-left:490px;  
+}
+.tab-menu-dog-3 li.selected-dog-3 {
+    color: #459d36;
+    border-top:3px solid #459d36;
+    border-left:1px solid #459d36;
+    border-right:1px solid #459d36;
+    border-bottom: none;
+}
+/* 狗狗玩具 */
+
+.dog-left4{
+    background: url(https://img2.epetbar.com/nowater/2018-02/09/17/e0ec24ea68f49d911c05a6aff98c9b2b.jpg@!water)
+}
+
+.tab-menu-dog-4{
+    margin-left:286px;   
+}
+.tab-menu-dog-4 li.selected-dog-4 {
+    color: #459d36;
+    border-top:3px solid #459d36;
+    border-left:1px solid #459d36;
+    border-right:1px solid #459d36;
+    border-bottom: none;
+}
+
+ 
+
+  
+ 
+
+
+
+/* 底部 */
+.footer{
+    width: 1317px;
+    height: 450px;
+    background: #F5F5F5;
+    margin-top:30px;
+    text-align: center;
+}
+.footer-image{
+    width: 1200px;
+    height: 100px;
+    border-bottom: 1px solid #E5E5E5;
+    display: inline-block;
+    margin-left:25px;
+}
+.footer-image-list{
+    margin-left: -10px;
+}
+.footer-image-list li{
+    width:16%;
+    float: left;
+    transition: all .8s ease;
+}
+.footer-image-list li:hover{
+    transform: translateY(-8px) !important;
+}
+
+.footer-image-list li:hover p{
+    color: rgb(240, 81, 81);
+}
+.footer-image-list li img{
+margin-top:15px;
+margin-left:-90px;
+ 
+}
+.footer-image-p{
+    margin-top:-45px;
+    margin-left: 100px;
+    color: #444;
+    font-weight: 700;
+    transition: all .8s ease;
+    font-size: 18px; 
+}
+.footer-server{
+    width: 1200px;
+    height: 185px;
+    display: inline-block;
+    margin-left:25px;
+}
+.footer-server img{
+    float: left;
+    margin: 30px 20px;
+}
+
+.footer-content .footer-wrapper .footer-phone .footer-number {
+    margin-left: 30px;
+    
+}
+/* .fl {
+    float: left;
+    margin-top:25px;
+} */
+.bold {
+    font-weight: 700;
+    
+}
+
+.c666 {
+    color: #666;
+}
+.ft14 {
+    font-size: 14px;
+}
+.footer-content .footer-wrapper .footer-phone .footer-number p {
+    margin-top: 15px;
+}
+
+.mt20, .mtop20 {
+    margin-top: 20px;
+}
+.c666 {
+    color: #666;
+}
+.ft20 {
+    font-size: 20px;
+}
+.c444 {
+    color: #444;
+}
+
+.ft12 {
+    font-size: 12px;
+}
+.mm{
+    margin-top: 15px;
+   
+}
+
+.pay-style {
+    margin-left: 70px;
+}
+.mt5 {
+    color: #444;
+    margin-top:6px;
+}
+.footer-server a{
+    color: #444;
+}
+.footer-server a:hover{
+    color:rgb(211, 69, 69);
+    text-decoration: underline;
+}
+/* 二维码1 */
+.app-code {
+
+    margin-left: 30px;
+}
+.app-code img{
+    margin-top:13px;
+}
+.wx-code img{
+    margin-top:13px;
+}
+.fwrapper{
+    width: 1150px;
+   
+    display: inline-block;
+    border-top:1px solid #E5E5E5;
+}
+.fwrapper span a {
+   
+        display: inline-block;
+        margin: 20px 15px 10px 0;
+   
+
+}
+.fwrapper a:hover{
+    color:rgb(211, 69, 69);
+    text-decoration: underline;
+}
+
+.fwrapper .mr5{
+    
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.log-list{
+    width: 1200px;
+    display: inline-block;
+    margin-top:10px;
+}
+.log-list li{
+  display: inline;
+}
+/* 公司信息 */
+
+.footer-copy {
+    padding: 20px 0 40px;
+}
+.footer-copy p {
+    color: #000;
+}
+.footer-copy p a{
+    color: #444444;
+}
+.footer-copy p  a:hover{
+    color:rgb(211, 69, 69);
+    text-decoration: underline;
+}
+/* 回到顶部 */
+#btn{
+    position: fixed;
+    bottom:0;
+    right:0;
+    cursor: pointer;
+    display: none;
+    
+}
+#btn img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+
+element.style {
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+}
+#rtbar {
+    position: fixed;
+    width: 35px;
+    z-index: 10;
+    filter: alpha(opacity=0);
+    height: 100%;
+    background-color: #444;
+    /* margin-right:-200px;
+    display: inline-block; */
+}
+.rtcont {
+    position: relative;
+    height: 100%;
+}
+element.style {
+    height: 472px;
+    top: 30px;
+}
+.rtcont-up {
+    padding-top: 10px;
+    position: relative;
+}
+.rtcont .rtcont-dn {
+    position: absolute;
+    bottom: 20px;
+}
+.rtcont li{
+    color: #A6A6A6;
+}
+.rtcont li i{
+    font-size: 25px;
+    
+}
+.rtcont li .buy{
+    width: 10px;
+    margin-left: 12px;
+}
+.rtl{
+    margin-top:50px;
+}
+
+.loginBox{
+    position: absolute;
+    opacity: 0;
+    transition:all .5s linear;
+}
+.loginBox .show{
+    opacity: 1;
+    border-top:1px solid #459d36;
+}
+
+/* 登录界面 */
+.main{
+    width: 1366px;
+    text-align: center;
+}
+
+.login-header{
+    width: 1200px;
+    height: 123px;
+   display: inline-block;
+   text-align: left;
+}
+.login-header img{
+    padding: 30px;
+}
+
+
+
+.Logonfr {
+    margin: 33px 20px 0 0;
+}
+.overflow {
+  padding: 0 30px;
+    
+}
+.overflow a:hover {
+    text-decoration: none;
+    color: #248DCC;
+}
+
+.overflow .ft14:hover {
+    color: #248DCC;
+}
+
+.Loginlink a {
+    padding: 0 25px;
+}
+
+a:link, a:visited {
+    outline: 0;
+}
+.inblock {
+    display: inline-block;
+}
+.c666 {
+    color: #666;
+}
+.ft14 {
+    font-size: 14px;
+}
+/* 背景 */
+.contents{
+    background: url(../image/login/login.png) no-repeat top /cover;
+    width: 100%;
+    height: 630px;
+    margin-top:-15px;
+}
+
+.contents input, button {
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contents .title {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 30px 0;
+    color: #33CB98;
+}
+
+.contents .myForm {
+    width:400px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    float: right;
+    margin-top:50px;
+    margin-right: 110px;
+}
+
+.contents .myForm .form-item {
+    width: 100%;
+    height: 45px;
+    margin: 30px auto;
+}
+.contents .myForm .form-item:after {
+    content: attr(data-msg);
+    font-size: 12px;
+    color: #33CB98;
+    letter-spacing: 1px;
+    /* 默认隐藏异常提示 */
+    display: none;
+    margin-top: 5px;
+}
+.contents .myForm .form-item.error:after {
+    /* 显示异常提示 */
+    display: block;
+}
+
+.contents .myForm input {
+    width: 73%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: lighter;
+    border: 1px solid #ccc;
+    transition: all .25s linear;
+}
+.contents .myForm input:focus {
+    border-color: green;
+}
+
+.contents .myForm .verification-code-box {
+    margin-bottom: 50px;
+    background: none;
+}
+.contents .myForm .verification-code-box > span {
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    background: linear-gradient(to left top, rgb(129, 228, 195), rgb(47, 128, 100));
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.contents .myForm .verification-code-box > input {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+}
+.contents .myForm .btn {
+    width: 73%;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all .25s linear;
+    font-family: 'Droid Serif', serif;
+    background: #33CB98;
+    border-radius: 20px;
+}
+.contents .myForm .btn:hover {
+    background: rgb(255, 253, 253);
+    color: #33CB98;
+    font-weight: bolder;
+    
+}
+.overflow-1 i{
+    background: #33CB98;
+    margin-left: 10px;
+}
+.overflow-1 {
+    margin-top:20px;
+   margin-left:-30px;
+   padding-bottom: 30px;
+}
+.block{
+    margin: 20px 30px;
+}
+.bgwhite{
+    padding: 70px 0;
+    height:150px;
+    
+}
+
+/* 注册界面 */
+
+.welcome-register-img{
+    margin-left:-45px;
+}
+.Logonfr span{
+    margin-right:20px;
+}
+.Logon {
+    color: #427fd2;
+}
+
+.ft16 {
+    font-size: 16px;
+}
+.register-content{
+    width: 100%;
+    height:590px;
+    border:1px solid #DDDDDD;
+    background: none;
+    text-align: center;
+}
+.register-content .myForm{
+   margin: 0 40%;
+}
+.register-content .myForm .form-item{
+    width: 600px;
+}
+.register-btn{
+    margin-left:150px;
+    margin-top:-20px;
+}
+.Pwdqiangdu{
+    margin-left:80px;
+}
+
+
