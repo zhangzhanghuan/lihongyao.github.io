@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+body{
+    width:100%;
+    margin: 0 auto;
+
+}
+.all{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header img{
+    width: 1240px;
+    margin: 0 auto;
+    height: 446px;
+}
+.nav{
+    margin-top:60px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.nav ul li{
+    width: auto;
+    float: left;
+    border-bottom: 2px solid #E4E4E4;    
+    margin-left: 30px;
+    height: 50px;
+    margin-bottom: -50px;
+}
+.nav ul li a{
+    font-size: 22px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+
+.list-1{
+    margin-top:30px;
+    width: 100%;
+}
+
+form select{
+    font-size: 16px;
+}
+.p1{
+    font-size: 16px;
+    // display: inline;
+    float: left;
+    margin-left: 30px;
+}
+.cars{
+    float: left;
+    width: 138px;
+    height: 40px;
+    margin-top:-10px;
+    margin-right: 3px;
+}
+.list-2{
+    width: 100%;
+    height: 520px;
+    margin-top:100px;
+    margin-left:-50px;
+}
+.list-2 li{
+    width: 26%;
+    height: 188px;
+    float: left;
+    margin-left: 85px;
+}
+.p{
+    color: #00C3F5;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.p2{
+    
+    font-size: 16px;
+    height: 50px;
+    width: 300px;
+}
+.span{
+    color: #333;
+    display: block;
+}
+.list-3{
+    height:70px;
+    width: 100%;
+    margin-top:-100px;
+    border-top: 2px solid #E4E4E4;
+    line-height: 80px
+}
+.list-3 li{
+    float: right;
+}
+.list-3 li p{
+    float: left;
+    margin-right:20px;
+}
+.list-3-p1 {
+    color: #333;
+    font-size: 18px;
+}
+.list-3-p2{
+    width: 138px;
+    height: 40px;
+    color: #00c3f5;
+    border: #00c3f5 1px solid;
+    font-size: 16px;
+    text-align: center;
+    margin-top:20px;
+    line-height: 40px;
+
+}
+.list-2-two{
+    width: 100%;
+    height:600px;
+    display: none;
+    border-bottom: 2px solid #E4E4E4;
+}
+.list-3-left{
+   margin-right:850px;
+   margin-top:20px;
+   display: none;
+}
+.list-3-right{
+    margin-top:-80px;
+}
+.search-span{
+    width: 24.3%;
+    display: inline-block;
+    margin-top:4px;
+    font-size: 0;
+}
+.search-span input{
+    width: 65%;
+     margin-left: 26px;
+     height: 33px;
+     
+     border: 1px solid #A9A9A9;
+
+}
+.search-span button{
+    width: 21%;
+    height: 33px;
+    vertical-align: top;
+    background: #00C3F5;
+    color: white;
+    margin-left:-4px;
+}
+// 地图
+#allmap {
+    height: 100%;
+    width: 75.7%;
+    overflow: hidden;
+    float: right;
+    // margin-top:1px;
+}
+
+#r-result {
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    left: 200px
+}
+
+// over列表
+.over{
+    width: 22.3%;
+    height: 540px;
+    overflow-y: auto;
+    margin-left:25px;
+}
+.over li{
+    height:100px;
+    width: 100%;
+    margin-top: 10px;
+}
+.over li:nth-child(1){
+    background: #ededed;
+}
+.over li:hover{
+    background: #ededed;
+}
+.over li a{
+    font-size: 14px;
+    color: #666;
+}
+.number{
+    display: inline-block;
+    font-size: 20px;
+    color: #e4e4e4;
+    text-align: center;
+    width: 40px;
+    height:100%;
+    float: left;
+    line-height: 60px;
+}                      

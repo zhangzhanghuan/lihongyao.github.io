@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全部商品 - 魅族官网在线商店</title>
+<link href="http://localhost:8081/static/css/goods.css" rel="stylesheet"></head>
+<body>
+    <main class="content">
+
+            <!-- 导航 -->
+            <section class="nav">
+                <a href="../../index.html">首页</a>
+                <span>&gt;</span>
+                <a href="javascript:;" class="goods-all">全部商品</a>
+            </section>
+
+            <!-- 搜索 -->
+            <ul class="keywords-list"></ul>
+
+            <!-- 排序 -->
+            <section class="sort">
+                <span>推荐</span>
+                <span>新品</span>
+                <span class="sort-price">
+                    价格
+                    <i class="iconfont icon-arrowsdown"></i>
+                </span>
+                <div class="is-stock">
+                    <div class="yes">
+                        <i class="iconfont icon--danxuangou"></i>
+                    </div>
+                    <label>仅显示有货商品</label>
+                </div>
+            </section>
+            <!-- 商品列表 -->
+            <ul class="goods-show goods-list-phone"></ul>
+            <ul class="goods-show goods-list-media"></ul>
+            <ul class="goods-show goods-list-smart"></ul>
+            <ul class="goods-show goods-list-life"></ul>
+            <ul class="goods-show goods-list-others"></ul>
+    </main>
+<script type="text/javascript" src="http://localhost:8081/static/js/goods.js"></script></body>
+</html>

@@ -1,0 +1,150 @@
+export {loaddingKeywordsList, loaddingGoodsList, scroll, tabChange, hasStock, keywordsClick}
+
+/****** 加载商品数据 *****/
+function loaddingGoodsList(response, $box) {
+    let goodsStr = "";
+    let data = response.contents;
+    data.forEach(obj => {
+        goodsStr += `<li class="goods-box" title="${obj.name}">
+            ${(function(){
+                let arr = null;
+                let contentStr = `<div class="tab-content">`;
+                let menuStr = `
+                    <div class="tab-menu">
+                        <i class="iconfont icon-arrow1"></i>
+                        <i class="iconfont icon-arrow"></i>
+                        <div class="menu-box">
+                            <div class="view-box">
+                `;
+                let imgStr = "";
+                obj.colorImg.forEach(img => {
+                    contentStr += `<img src="${img}" alt="${obj.name}">`;
+                    imgStr += `<img src="${img}" alt="${obj.name}">`;
+                });
+                contentStr +=`</div>`;
+                imgStr +=`</div></div></div>`;
+                arr = [contentStr, menuStr, imgStr];
+                return arr.join("");
+            })()}
+            <p class="goods-name">${obj.name}</p>
+            ${isExist(obj.des, "goods-des")}
+            <p class="goods-price">￥ <span class="price-num">${parseInt(obj.price)}</span> 起</p>
+            <div class="compare">
+                <i class="iconfont icon-duibi"></i>
+                <span>对比</span>
+            </div>
+        </li>`;
+    });
+    $box.html(goodsStr);
+
+    // [内部函数]判断JSON数据是否存在,存在则添加HTML标签和样式,否则不添加
+    function isExist(str, className) {
+        if(str) {
+            return `<p class=${className}>${str}</p>`;
+        }else {
+            return "";
+        }
+    }
+
+}
+
+/****** 加载关键词数据 *****/
+function loaddingKeywordsList(response, index) {
+    let obj = response[index];
+    // 判断JSON对象中存在哪些key,然后添加相应HTML内容
+    if(obj) {
+        let htmlStr = "";
+        $.each(obj, function(key, value){
+            // 加载除了title以外的其他key的value
+            if(key != "title") {
+                htmlStr += `<li class="classify">`;
+                $.each(value, function(index, item) {
+                    htmlStr += `<span class="keywords">${item}</span>`;
+                });
+                htmlStr += `</li>`;
+            }
+        });
+        $('.keywords-list').html(htmlStr);
+    }else {return;}
+}
+
+/****** 关键词事件 ********/
+function keywordsClick(response){
+    $('.keywords').on('click', function(e){
+        // 获取被点击元素文本内容
+        let reg = $(e.target).text();
+        // 根据被点击元素所含文本筛选JSON数据
+        let obj = $.grep(response, function(item, index){
+            return item.title == reg;
+        });
+        // 刷新关键字页面
+        loaddingKeywordsList(obj, 0);
+        // 改变图片
+        switch (reg) {
+            case "手机":
+            $('.goods-list-phone').show().siblings('.goods-show').hide();
+            break;
+            case "数码影音":
+            $('.goods-list-media').show().siblings('.goods-show').hide();
+            break;
+            case "智能":
+            $('.goods-list-smart').show().siblings('.goods-show').hide();
+            break;
+            case "生活周边":
+            $('.goods-list-life').show().siblings('.goods-show').hide();
+            break;
+            case "其他设备":
+            $('.goods-list-others').show().siblings('.goods-show').hide();
+            break;
+        }
+        keywordsClick(response);
+    })
+};
+
+/****** 只显示有货商品 ****/
+function hasStock() {
+    $('.is-stock').on('click', function(){
+        // 打勾
+        $(this).find('.iconfont').toggle();
+
+    })
+}
+
+/****** 前进后退功能 *****/
+function scroll() {
+    // 判断商品颜色图片是否多于4个,是则添加左右箭头,并设置初始样式
+    $('.view-box').each(function(index, element) {
+        if($(element).children('img').length > 4) {
+            $(element).parent().siblings('.iconfont').show();
+            $(element).parent().siblings('.icon-arrow1').addClass('disabled');
+        }else {return;}
+    });
+    // 左箭头 -> 后退
+    $('.icon-arrow1').on('click', function(){
+        $(this).siblings('.menu-box').children('.view-box').animate({left: "0"}, 300);
+        $(this).addClass('disabled');
+        $(this).siblings('.icon-arrow').removeClass('disabled');
+    });
+    // 右箭头 -> 前进
+    let len = $('.menu-box').width();
+    $('.icon-arrow').on('click', function(){
+        $(this).siblings('.menu-box').children('.view-box').animate({left: `-${len}px`}, 300);
+        $(this).addClass('disabled');
+        $(this).siblings('.icon-arrow1').removeClass('disabled');
+    });
+}
+
+/****** 选项卡切换效果 *****/
+function tabChange(){
+    // 手动给第一个元素添加样式
+    $('.tab-menu').each(function(index, element){
+        $(element).find('img:first').addClass('selected');
+        $(element).siblings('.tab-content').children().eq(0).show();
+    });
+    // 点击同时切换按钮和图片内容
+    $('.tab-menu').on('click', 'img', function(){
+        $(this).addClass('selected').siblings().removeClass('selected');
+        let index = $(this).index();
+        $(this).closest('.tab-menu').siblings('.tab-content').children().eq(index).show().siblings().hide();
+    });
+}

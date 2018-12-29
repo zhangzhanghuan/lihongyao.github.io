@@ -1,0 +1,339 @@
+@charset "utf-8";
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+body{
+    width: 100%;
+    font: 14px/1.5 Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif;
+}
+.hid-all{
+    width: 100%;
+}
+.all{
+    text-align: center;
+    margin: 0 auto;
+    width: 1250px;
+}
+.swiper-container{
+    width: 100%;
+
+}
+.swiper-slide img{
+    width: 100%;
+    height: 600px;
+}
+.swiper-button-next{
+    margin-right:22px;
+}
+.list-1{
+    width: 1250px;
+    height: 100px;
+    margin-top:50px;
+    display: inline-block;
+}
+.list-1 li:nth-child(2n){
+    margin-top:-12px;
+}
+.list-1 li:nth-child(5){
+    margin-top:-10px;
+}
+.one-li{
+    float: left;
+    width: 15%;
+    margin-left: 20px;
+}
+.em{
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:20px;
+}
+.one-div{
+    background: pink;
+    float: left;
+    color: white;
+}
+.one-div img{
+    height: 70px;
+    width: 70px;
+}
+.list-2{
+    width: 1250px;
+    display: inline-block;
+    // text-align: center;
+}
+.list-2 li{
+    width: 25%;
+   padding: 35px 0;
+}
+.list-2 li:nth-child(1){
+    background: #388DED;
+}
+.list-2 li:nth-child(2){
+    background: #48BF6C;
+}
+.list-2 li:nth-child(3){
+    background: #F6AF2A;
+}
+.list-2 li:nth-child(4){
+    background: #3EC0D1;
+}
+
+// 二模块
+.model-two{
+    background: #F4F4F4;
+    height: 680px;
+}
+.list-3{
+    width: 1250px;
+    height: 300px;
+    margin-top:50px;
+
+}
+.list-3 .section-title{
+    padding:50px 0;
+}
+.list-3 li{
+    width: 32%;
+    background: white;
+    padding: 80px 0;
+    // width: 30%;
+}
+.list-3 li:nth-child(3){
+    margin-left: 20px;
+}
+.list-3 li:nth-child(4){
+    margin-left: 16px;
+}
+.list-4{
+    width: 1250px;
+    height: 100px;
+    margin-top:50px;
+}
+.list-4 li{
+    float: left;
+    margin-top:-50px;
+    color: white;
+}
+.list-4 li:nth-child(2){
+    float: right;
+}
+.list-4-li{
+    margin-top: -100px;
+}
+.list-3-li{
+    float: left;
+   
+}
+.list-3 img{
+    transition: .1s linear;
+}
+.list-3 li img:hover{
+    margin-top:-10px;
+}
+.list-4-li img{
+    margin-left:-250px;
+    margin-top:20px;
+}
+// .list-4-list{
+//     height: 300px;
+// }
+.list-4-div{
+    margin-top:-45px;
+}
+.list-4-div p{
+    text-align: left;
+    margin-left: 220px;
+}
+.p1{
+    font-size: 16px;
+}
+
+// 三模块
+.model-three li{
+   float: left;
+   width: 50%;
+   height: 270px;
+}
+.list-5 li img{
+    margin-top: -120px;
+}
+
+.list-5 li .span{
+    width: 387px;
+    height: 145px;
+    display: inline-block;
+    text-align: left;
+    margin-top:40px;
+    margin-left: 20px;
+}
+.list-5 li span .tit{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.list-5 li span .tit1{
+    color: #00bbf2;
+    font-size: 14px;
+
+}
+.list-5 li span .info{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+// 四模块
+.list-6{
+    width: 100%;
+    height: 400px;
+    background:  #f4f4f4;;
+    margin-top: 470px;
+}
+.list-6 ul{
+    float: left;
+    width: 20%;
+}
+.question-list-title{
+    position: relative;
+    display: block;
+    padding-bottom: 13px;
+}
+.question-list-title::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 14px;
+    height: 1px;
+    background: #929292;
+    margin-left: -7px;
+}
+.list-6  li a{
+    margin-top: 5px;
+    display: inline-block;
+}
+// 标题
+.section-title{
+    font-size: 20px;
+    padding: 40px 0;
+    color: #333;
+}
+
+// 五模块
+.list-7{
+    width: 100%;
+    height: 300px;
+}
+.list-7 li{
+    float: left;
+    width: 25%;
+    margin-top:30px;
+}
+.list-7 li img{
+    width: 34px;
+    height: 34px;
+}
+.contact-title{
+    display: block;
+    font-size: 16px;
+    padding-top: 12px;
+    margin-bottom: 7px;
+}
+.contact-tips{
+    display: block;
+    font-size: 14px;
+    color: #999;
+    margin-top: -4px;
+}
+.fro:hover{
+    color: #3EC0D1;
+}
+
+//六模块
+.list-8 {
+    width: 621px;
+    height: 378px;
+    background: #5A66AA;
+}
+.list-8-span{
+    width: 90%;
+    display: inline-block;
+    height: 53px;
+    margin-top:-280px;
+    background: #5A66AA;
+    position: relative;;
+
+}
+.list-8{
+    text-align: center;
+    color: white;
+}
+.list-8-span-1{
+    text-align: left;
+}
+.list-8-img{
+    width: 80%;
+    float: left;
+    margin: 46px 0 0 60px;
+}
+.list-8-span p{
+    float: left;
+    padding: 0 19px;
+    margin-top:-19px;
+    background: #5A66AA;
+   
+}
+.boutique-tit{
+    font-size: 24px;
+    padding-top: 81px;
+    margin: 0 60px 23px;
+}
+.boutique-desc{
+    margin: 0 60px 10px;
+}
+.list-8-span-1 a{
+    margin: 0 60px 10px;
+    color: #00bbf2;
+}
+
+.model-six{
+    width: 99%;
+    height: 842px;
+
+}
+
+.list-9-span img{
+    width: 619px;
+    height: 378px;
+}
+.list-9-span .img1{
+    float: right;
+    margin-top:-378px;
+}
+.list-9-span .img2{
+    float: left;
+}
+
+.list-10{
+    width: 621px;
+    height: 378px;
+    float: right;
+    margin-top:-378px;
+    background: #F4F4F4;
+}
+
+.list-10-span{
+    display: inline-block;
+    width: 90%;
+    height: 53px;
+}
+.div{
+    height: 36px;
+    width: 100%;
+    background: #F4F4F4;
+    margin-top:-120px;
+    z-index: inherit;
+    position: relative;
+}
+.list-10-span p{
+    float: left;
+    padding: 0 18px;
+    margin-top:5px;
+
+}

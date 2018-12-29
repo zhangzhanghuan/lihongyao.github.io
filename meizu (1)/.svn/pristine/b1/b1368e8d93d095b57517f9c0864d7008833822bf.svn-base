@@ -1,0 +1,31 @@
+require('../less/common.less');
+require('../less/goods.less');
+import {loaddingGoodsList, scroll} from './goods-func';
+
+// 禁止热更新刷新页面
+if(module.hot){
+    module.hot.accept();
+}
+
+$(function(){
+    let allGoods = [];
+    $.ajax({
+        url: '../json/phone.json',
+        success: (function(response) {
+            loaddingGoodsList(response, $('.goods-list'));
+            scroll();
+        })
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+});

@@ -1,0 +1,224 @@
+
+require("../less/common.less");
+import './common';
+require('../less/community.less');
+
+import Swiper from '../../node_modules/swiper/dist/js/swiper.min.js';
+$(function(){
+       
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+        grabCursor : true,//手掌
+        parallax : true,
+        zoom:true,
+        speed:3000,
+        autoplay:true,
+        // initialSlide :2,
+        
+        
+        // 如果需要分页器
+        pagination: {
+          el: '.swiper-pagination',
+          // clickable: true,
+        },
+        
+        // 如果需要前进后退按钮
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        
+        // 如果需要滚动条
+        // scrollbar: {
+        //   el: '.swiper-scrollbar',
+        // },
+        a11y : {
+            prevSlideMessage: 'Previous slide',
+            nextSlideMessage: 'Next slide',
+            firstSlideMessage: 'This is the first slide',
+            lastSlideMessage: 'This is the last slide',
+            paginationBulletMessage: 'Go to slide {{index}}',
+            notificationClass: 'swiper-notification',
+          },
+          slidesPerView : 1,
+          lazy: {
+            loadPrevNext: true,
+          },
+          effect : 'coverflow',
+        //   slidesPerView: 3,
+          centeredSlides: true,
+
+
+      });
+     
+
+      
+    //如果你在swiper初始化后才决定使用clickable，可以这样设置
+    mySwiper.params.pagination.clickable = true ;
+    //此外还需要重新初始化pagination
+    mySwiper.pagination.destroy()
+    mySwiper.pagination.init()
+    mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active');
+    $('.show-box').mouseenter(function(){
+        $('.box').slideDown();
+        $('.san').show(0.1);
+    });
+    $('.last').mouseleave(function(){
+        $('.box').hide();
+    });
+    $('.ban-main').mouseenter(function(){
+        $('.ban').css('display',"block");
+    });
+    $('.ban-li').mouseleave(function(){
+        $('.ban').hide();
+    });
+    $('.img').mouseenter(function(){
+        $('.hide-img').css('display',"block");
+    });
+    $('.hide-img').mouseleave(function(){
+        $(this).hide();
+    });
+
+    // 选项卡
+    $('.last-p1').mouseenter(function(){
+        $('.last-content-1').hide();
+        $('.last-content').show();
+        // $(this).css({
+        
+        //     "color":"#32A5E7"
+        // })
+    });
+    $('.last-p2').mouseenter(function(){
+        $('.last-content').hide()
+        $('.last-content-1').show();
+       
+    })
+
+    // 加载发帖数据
+    $.ajax({
+        url:"../json/community.json",
+        type:"GET",
+        success:function(data1){
+            console.log(data1);
+            var lis="";
+            lis +=`<li class="person-li">
+            <a>${data1.title}</a>
+            <span class="person-li-li">
+            <a class="odd">${data1.today}</a>
+            <a>${data1.num1}</a>
+            <a class="odd">${data1.history}</a>
+            <a>${data1.num2}</a>
+            <a class="odd">${data1.VIP}</a>
+            <a>${data1.num3}</a>
+            </span>
+            
+            </li>`
+            data1.list2.forEach(data2 => {
+                lis+=`
+                <li class="person-li-1">
+                <span class="person-li-1-img"><img src="${data2.img}"></span>
+                <span class="span-two">
+                
+               <p class="span-p"><a>${data2.say}<a></p>
+                
+               <span class="span-p1">
+                    <p class="username">${data2.name}</p>
+                
+
+                    <span class="info-left">
+                    <i class="iconfont">&#xe629;</i>
+                    <p class="p1">${data2.num1}</p>
+                    </span>
+
+                    <span class="info-left">
+                    <i class="iconfont">&#xe601;</i>
+                    <p  class="p1">${data2.news}</p>
+                    </span>
+                </span>
+                </span>
+                </li>
+                
+                `
+            });
+            $('.person').html(lis);
+        }
+    });
+
+    $.ajax({
+        url:"../json/community.json",
+        type:"GET",
+        success:function(data){
+            var lis="";
+            data.list3.forEach((res)=>{
+                lis+=`<li>
+                <img src="${res.img}">
+                <span class="huodong-span">
+                <p class="title">${res.title}</p>
+                <p class="rth"><a>${res.description}</a></p>
+                   <div class="huodong-div">
+                   <div class="div">
+                   <i class="iconfont">&#xe6e0;</i>
+                   <p class="num">${res.num1}</p>
+                   </div>
+                   <div class="div div2">
+                   <i class="iconfont">&#xe61e;</i>
+                   <p class="num">${res.num2}</p>
+                   </div>
+                   <p class="num space">${res.name}</p>
+                   <p class="num space">${res.day}</p>
+                   <p class="num do">${res.do}</p>
+                   </div>
+                <p class="huodong-p">${res.say}</p>
+                <i class="iconfont weibo">&#xe63e;</i>
+                
+                </span>
+                </li>`
+            });
+            $('.huodong').html(lis);
+            
+        }
+    });
+    $.ajax({
+        url:"../json/community.json",
+        type:"GET",
+        success:function(goods){
+            var lis="";
+            lis+=`<div class="new-title">${goods.list4.title}</div>`
+            goods.list4.list5.forEach(function(good){
+                lis+=`<div class="list">
+                <img src="${good.img}" title="${good.say}">
+                <div class="new-div">
+                <p class="p-title">${good.name}</p>
+                <p class="summary">${good.description}</p>
+                <p class="but">${good.now}</p>
+                </div>
+                </div>`
+            });
+            $('.new').html(lis);
+        }
+    });
+
+    // $.ajax({
+    //     url:"../json/community.json",
+    //     type:"GET",
+    //     success:function(data){
+    //         var list="";
+    //         var good=data.list4;
+    //         good.list6.forEach(function(res){
+    //              list+=`
+    //        <li>
+    //        <p>${res.title}</p>
+    //        <img src="${res.img}">
+    //        <p>${res.p1}<p>
+    //        <p>${res.p2}</p>
+    //        </li>
+    //        `  
+    //         })
+    //        $('.new-person').html(list)
+    //     },
+      
+    // });
+   
+    
+})

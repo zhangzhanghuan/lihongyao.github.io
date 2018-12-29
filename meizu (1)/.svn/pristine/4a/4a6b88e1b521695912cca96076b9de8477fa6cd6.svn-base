@@ -1,0 +1,124 @@
+/************全局样式*************/
+@import "//at.alicdn.com/t/font_919993_4r3sk7lqv5v.css";
+html,
+body {
+    background: rgba(238, 238, 238, 0.39);
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.nav {
+    margin: 10px 0;
+}
+.nav a {
+    margin-right: 5px;
+    color: #000;
+}
+.keywords-list {
+    background: #fff;
+}
+.keywords-list > li {
+    padding: 20px 20px;
+}
+.keywords-list span {
+    margin-right: 30px;
+}
+// 排序部分
+.sort {
+    margin: 35px 0 20px 0;
+}
+.sort > span {
+    margin-right: 40px;
+}
+// 商品部分
+.goods-list {
+    font-size: 0;
+}
+.goods-box {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 20px 0;
+    width: calc((100% - 30px) / 4);
+    height: 455px;
+    font-size: 14px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.goods-box:nth-child(4n) {
+    margin: 0 0 5px 0;
+}
+.tab-content {
+    position: relative;
+    margin: 0 auto 10px;
+    width: 220px;
+    height: 220px;
+}
+.tab-content img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+    vertical-align: middle;
+}
+.tab-menu {
+    position: relative;
+    margin: 0 auto;
+    max-width: calc(48px * 4);
+    overflow: hidden;
+}
+.view-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+.iconfont {
+    display: none;
+    position: relative;
+    font-weight: 900;
+    cursor: pointer;
+}
+.show {
+    display: inline-block;
+}
+.iconfont.icon-arrow1 {
+    top: 30px;
+    left: -120px;
+}
+.iconfont.icon-arrow {
+    top: -30px;
+    right: -120px;
+}
+.tab-menu img {
+    margin: 0 3px;
+    width: 40px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.goods-box > p {
+    margin: 10px 0;
+}
+.goods-des {
+    font-size: 12px;
+    color: #aaa;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.goods-price {
+    color: rgba(255, 0, 0, 0.87);
+}
+.price-num {
+    font-size: 22px;
+}
+// 对比
+.contrast {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
