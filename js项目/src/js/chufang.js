@@ -66,7 +66,7 @@
         url:"/json/chufang.json",
         success:function(obj){
             var arrName=obj.list3;
-            document.write(`Insert into `)
+            // document.write(`Insert into `)
             var list1="";
             arrName.forEach(el => {
                 if(el.do){
