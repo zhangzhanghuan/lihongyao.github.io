@@ -588,7 +588,6 @@ a:link, a:visited {
     transition:all .5s linear;
     margin-top:40px;
    margin-left:-40px;
-   /* overflow: hidden; */
 }
 .tab-content section.show{
     opacity: 1;
@@ -605,7 +604,6 @@ section{
     height: 360px;
     margin-top:40px;
     margin-left:230px;
-
 }
 
 .flash-wrapper {

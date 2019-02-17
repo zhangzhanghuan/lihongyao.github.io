@@ -1,0 +1,230 @@
+@charset "UTF-8";
+html,body{
+    margin: 0 auto;
+}
+.welcom{
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    position: relative;
+    line-height: 60px;
+}
+.save_header{
+    width: 990px;
+    height: 210px;
+    background: white;
+    margin:0 auto;
+}
+.save_header .img_1{
+    width: 210px;
+    height: 210px;
+    float: left;
+}
+.save_header_right_1{
+    width: 570px;
+    height: 210px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.username{
+    font-size: 24px;
+    color: #333;
+    width: 300px;
+    height: 58px;
+    padding-top: 14px;
+    display: inline;
+}
+.info1{
+    width: 530px;
+    height: 106px;
+    margin-left: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.user_level{
+    display: inline-block;
+    margin-left: 20px;
+    width: 50px;
+    height: 25px;
+    background: url('https://s1.c.meishij.net/n/images/jf_hz_wd_userlevel_bg.gif') no-repeat scroll 0px 0px transparent;
+}
+.jifen{
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+}
+.hover:hover{
+    color: #ff3232;
+    text-decoration: underline;
+}
+.me{
+    display: inline-block;
+vertical-align: top;
+*display: inline;
+*zoom: 1;
+height: 22px;
+padding: 0px 12px;
+background: #eee;
+text-align: center;
+color: #999;
+line-height: 22px;
+font-size: 12px;
+float: right;
+}
+.me:hover{
+    color: #666;
+    background: #ddd;
+}
+.ul_list{
+    width: 990px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.ul_list ul li a{
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    padding: 0px 0px;
+    text-align: center;
+    margin: 0px 20px;
+    font-size:14px;
+}
+.ul_list ul li a:hover{
+    color: #ff3232;
+    text-decoration: underline;
+}
+.save_btn{
+    color: #ff3232;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.me_save{
+    width: 990px;
+    height: 1000px;
+    background: white;
+    margin: 0 auto;
+}
+.me_save_li_1{
+    width: 194px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.me_save_li_1 a{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: #ff3232;
+    color: white;
+}
+.me_save_li_1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.ul_list_save{
+    width: 990px;
+    float: left;
+    margin-left: -30px;
+}
+.ul_list_save li {
+    float: left;
+    width: 232px;
+    height: 360px;
+    margin:20px 0px 0px 20px;
+}
+.ul_list_save li p{
+    cursor: pointer;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.ul_list_save li img{
+    width: 232px;
+    height: 232px;
+    position: relative;
+}
+.p1{
+    color: #333;
+    font-weight: bold;
+}
+.p1:hover{
+    color: #ff3232;
+}
+.p2{
+    color: #999;
+}
+.p3{
+    line-height: 24px;
+    color: #ff3232;
+}
+.p3:hover{
+    text-decoration: underline;
+}
+
+/* 隐藏部分 */
+.hide_save{
+    width: 232px;
+    height: 232px;
+    background: rgb(0, 0, 0);
+    margin-top:-336px;
+    overflow: hidden;
+    margin-left: 232px;
+    opacity: 0;
+    transition: 0.5s;
+    position:absolute;
+    z-index: -1;
+}
+.hide_save p{
+    color: white;
+    text-align: left;
+    width: 60%;
+    margin-left: 30px;
+}
+.p4{
+    float: left;
+    height: 32px;
+    width: 208px;
+    background: url(https://s1.c.meishij.net/n/images/list_style1_icons.png) no-repeat;
+    text-indent: 32px;
+    line-height: 32px;
+    color: #666;
+    font-size: 14px;
+    margin-top: 60px;
+    background-position: -9px -126px;
+}
+.p5{
+    float: left;
+    height: 32px;
+    width: 208px;
+    background: url(https://s1.c.meishij.net/n/images/list_style1_icons.png) no-repeat;
+    text-indent: 32px;
+    line-height: 32px;
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+    background-position: -9px -44px;  
+}
+.ul_list_save li:hover .hide_save{
+    opacity: 1;
+    margin-left: 0px;
+    z-index: 1;
+}
+.ul_list_save li:hover .hide_save_1{
+    opacity: 1;
+}
+.hide_save_1{
+    font-size: 12px;
+    float: right;
+    margin-top:-30px;
+    margin-right: 10px;
+    color: #999;
+    opacity: 0;
+    cursor: pointer;
+}
+.hide_save_1:hover{
+    text-decoration: underline;
+}

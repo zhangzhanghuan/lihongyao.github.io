@@ -1,0 +1,249 @@
+main{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.backg{
+    width: 100%;
+    height: 576px;
+    background: url(https://s1.st.meishij.net/p2/20190104/20190104191021_499.jpg) center no-repeat;
+    font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    overflow: hidden;
+}
+.down_des{
+    width: 588px;
+    height: 235px;
+    margin:auto;
+    margin-top:170px;
+    font-style: normal;
+}
+.down_des strong{
+    font-size: 72px;
+    line-height: 140px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
+    letter-spacing: 9px;
+    color: #fff;
+}
+.line{
+    background: #fff;
+    width: 96%;
+    margin: 0px 2%;
+    height: 3px;
+}
+.down_des p{
+    font-size: 32px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    letter-spacing: 12px;
+    color: #fff;
+    white-space: nowrap;
+    margin:20px 20%;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.pink{
+    color: pink;
+}
+.blue{
+    color: blue;
+}
+.fadeIntop{
+    animation: moveToBottom 3s linear paused;
+}
+.fadeInbottom{
+    animation: moveToTop 3s linear paused;
+}
+.f1{
+    animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); 
+
+    animation: moveToRight 3s linear paused;
+}
+.f2{
+    animation: moveToLeft 3s linear paused;
+}
+.down_from{
+    width: 100%;
+    height:260px;
+    margin: 30px auto 100px;
+    background: #fff;
+    font-size: 0px;
+    overflow: hidden;
+}
+.down_from_item1{
+    height:260px;
+    width: 200px;
+    display: inline-block;
+    margin-top:55px;
+    /* animation: moveToLeft 2s linear paused; */
+}
+.down_from_item1:nth-child(1){
+    margin-left: 70px;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    margin: 0px auto;
+    background: url(https://s1.st.meishij.net/p2/20190105/20190105172003_961.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-size: 480px 80px;
+    opacity: 0.7;
+    transition: all ease 0.2s;
+}
+.des{
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.des2{
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 0px;
+}
+.qrcode{
+    position: absolute;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.9);
+    padding: 4px;
+    opacity: 0;
+    transition: all ease 0.5s;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
+    margin-top:-450px;
+    margin-left: -25px;
+}
+.qrcode img{
+    display: block;
+    height: 240px;
+    width: 240px;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1) transparent transparent transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -20px;
+}
+.down_from_item1:hover .icon{
+    opacity: 1;
+}
+.down_from_item1:hover .qrcode{
+    opacity: 1;
+}
+.icon1{
+    transition: 0.5s;
+}
+.icon1:hover{
+    transform: rotateZ(180deg);
+    border:3px solid rgb(126, 125, 125);
+    border-radius: 50%;
+}
+.icon2{
+    background-position: -80px 0px;
+}
+.icon3{
+    background-position: -160px 0px;
+}
+.icon4{
+    background-position: -240px 0px;
+}
+.icon5{
+    background-position: -320px 0px;
+}
+.icon6{
+    background-position: -400px 0px;
+}
+/* 背景一 */
+.d1_item{
+    width: 100%;
+    position: relative;
+    background: url(https://s1.st.meishij.net/p2/20190104/20190104193618_335.jpg) right top no-repeat;
+    background-size: 70% auto;
+    padding-top: 50%;
+    transition: all 0.5s linear;
+}
+.d1_item:hover{
+    background-size: 75%;
+}
+.txtw{
+    width: 6.25vw;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin-left: -3.125vw;
+}
+.txtw1{
+    left: 25%;
+}
+.word strong{
+    display: block;
+    height: 2.9166666vw;
+    width: 2.91666666vw;
+    background: #f45d52;
+    color: #fff;
+    line-height: 2.91666666vw;
+    margin-bottom: 0.41666666vw;
+    font-weight: normal;
+}
+.word{
+    color: #000;
+    font-weight: 400;
+    font-size: 2.0833333vw;
+    line-height: 3.3333333vw;
+    text-align: center;
+    width: 2.5vw;
+    position: absolute;
+}
+.txtw1 .word1{
+    animation: moveToLeft 3s linear paused;    
+}
+.word1{
+    right: 0px;
+    top: 8%;
+}
+.txtw1 .word2{
+    animation: moveToRight 3s linear paused;
+}
+.word2{
+    left: 0px;
+    top: 0%;
+}
+.d2_item{
+    background: url(https://s1.st.meishij.net/p2/20190104/20190104193938_148.jpg) left top no-repeat;
+    background-size: auto auto;
+    background-size: 70% auto;
+    padding-top: 50%;
+}
+.txtw2{
+    left: 75%;
+}
+.d3_item{
+    background: url(https://s1.st.meishij.net/p2/20190105/20190105161305_233.jpg) right top no-repeat;
+    background-size: auto auto;
+    background-size: 70% auto;
+    padding-top: 50%;
+}
+
+/* 懒加载 */
+
+/* 动画效果 */
+.running .animation-item {
+    animation-play-state: running;
+}

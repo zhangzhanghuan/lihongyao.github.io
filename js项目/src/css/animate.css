@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+@keyframes moveToTop {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveToBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes moveToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scale{
+    from{
+        height: 0px;
+        background: none;
+    }
+    to{
+        height: 100%;
+        background: url(https://s1.st.meishij.net/p2/20190104/20190104193618_335.jpg) right top no-repeat;        
+    }
+}
