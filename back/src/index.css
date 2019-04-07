@@ -1,0 +1,51 @@
+body{
+    background:url('../img/back_2.jpg')no-repeat top  ;
+    height: 500px;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.img_1{
+    /* width: 60%;
+    height: 50%; */
+    margin-left: 15%;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    left: 42%;
+}
+.img_2{
+    margin-top: -300px;
+}
+.img_3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.img_4{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.img_5{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40%;
+    height: 50%;
+}
+.img_6{
+    margin-left: -100px;
+}
+p{
+    position: absolute;
+    left: 23%;
+    font-family: '黑体';
+    font-weight: bolder;
+    font-size: 70px;
+    color: #E6FF2C;
+    /* background: white; */
+    text-shadow:5px 5px black;
+    top: 70%;
+}
