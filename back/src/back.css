@@ -1,0 +1,26 @@
+body{
+    background:url('../img/back6.jpg')no-repeat top center;
+    /* height: 700px; */
+    background-size: 100% 655px;
+    margin: 0 auto;
+}
+.img_1{
+    margin-left: 30%;
+    position: absolute;
+    /* height: 100%; */
+    width: 40%;
+    /* margin-top: 10%; */
+    height: 70%;
+    /* box-shadow: 0 0 50px rgb(166,124,64) */
+}
+p{
+    position: absolute;
+    left: 23%;
+    font-family: '黑体';
+    font-weight: bolder;
+    font-size: 70px;
+    color: #E3DE22;
+    /* background: white; */
+    text-shadow:5px 5px black;
+    top: 76%;
+}

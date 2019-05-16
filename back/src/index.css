@@ -1,14 +1,17 @@
 body{
-    background:url('../img/back_2.jpg')no-repeat top  ;
-    height: 500px;
-    background-size: 100%;
+    background:url('../img/back5.jpg')no-repeat top center;
+    /* height: 700px; */
+    background-size: 100% 655px;
     margin: 0 auto;
 }
 .img_1{
-    /* width: 60%;
-    height: 50%; */
-    margin-left: 15%;
+    margin-left: 30%;
     position: absolute;
+    /* height: 100%; */
+    /* width: 55%; */
+    /* margin-top: 10%; */
+    height: 60%;
+    /* box-shadow: 0 0 50px rgb(166,124,64) */
 }
 .logo{
     position: absolute;
@@ -30,10 +33,10 @@ body{
     bottom: 0;
 }
 .img_5{
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 40%;
-    height: 50%;
+    /* margin-top: 5%; */
+    /* margin-left: 10%; */
+    /* width: 40%;
+    height: 50%; */
 }
 .img_6{
     margin-left: -100px;
@@ -44,8 +47,8 @@ p{
     font-family: '黑体';
     font-weight: bolder;
     font-size: 70px;
-    color: #E6FF2C;
+    color: #E3DE22;
     /* background: white; */
     text-shadow:5px 5px black;
-    top: 70%;
+    top: 76%;
 }
